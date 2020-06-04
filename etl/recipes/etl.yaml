@@ -1,0 +1,148 @@
+# world population by income groups
+#
+# Based on population data from Gapminder and
+# income group data from World Bank.
+
+info:
+    id: population by income groups
+    base:
+        - &ontology open-numbers/ddf--open_numbers
+        - &population open-numbers/ddf--gapminder--population
+        - &wb open-numbers/ddf--world_bank--world_development_indicators
+
+config:
+    procedure_dir: ./procedures
+
+ingredients:
+    - id: geo-synonyms
+      dataset: *ontology
+      key: synonym, geo
+      value: "*"
+    - id: ontology-concepts
+      dataset: *ontology
+      key: concept
+      value: "*"
+    - id: geo-domain
+      dataset: *ontology
+      key: geo
+      value: '*'
+    - id: wb-countries
+      dataset: *wb
+      key: country
+      value: "*"
+    - id: wb-income-group-datapoints
+      dataset: *wb
+      key: economy, year
+      value:
+          - income_4level
+    - id: population-datapoints
+      dataset: *population
+      key: country, year
+      value:
+          - population
+    - id: global-population-datapoints
+      dataset: *population
+      key: global, year
+      value:
+          - population
+    - id: indicator-concepts
+      key: concept
+      data:
+          - concept: population
+            concept_type: measure
+            name: Population
+          - concept: population_percentage
+            concept_type: measure
+            name: Population Percentage
+
+cooking:
+    datapoints:
+        - procedure: translate_column
+          ingredients:
+              - wb-countries
+          options:
+              column: name
+              target_column: country_on
+              dictionary:
+                  base: geo-synonyms
+                  key: synonym
+                  value: geo
+          result: wb-countries-translated
+        - procedure: translate_column
+          ingredients:
+              - wb-income-group-datapoints
+          options:
+              dictionary:
+                  base: wb-countries-translated
+                  key: country
+                  value: country_on
+              column: economy
+          result: wb-income-group-datapoints-translated
+        - procedure: custom_procedure.translate_column_over_time
+          ingredients:
+              - population-datapoints
+          options:
+              dictionary:
+                  base: wb-income-group-datapoints-translated
+                  key: economy
+                  value: income_4level
+              column: country
+              time_column: year
+          result: population-datapoints-translated
+
+        - procedure: groupby
+          ingredients:
+              - population-datapoints-translated
+          options:
+              groupby:
+                  - country
+                  - year
+              aggregate:
+                  population: sum
+          result: population-datapoints-by-income-group
+
+        - procedure: translate_header
+          ingredients:
+              - population-datapoints-by-income-group
+          options:
+              dictionary:
+                  country: income_groups
+
+          result: population-datapoints-by-income-group-headers-translated
+
+        - procedure: translate_column
+          ingredients:
+              - population-datapoints-by-income-group-headers-translated
+          options:
+              column: income_groups
+              dictionary:
+                  hic: high_income
+                  lic: low_income
+                  lmc: lower_middle_income
+                  umc: upper_middle_income
+          result: population-datapoints-final
+
+        - procedure: custom_procedure.population_percentage
+          ingredients:
+              - population-datapoints-final
+          options:
+              world_population: global-population-datapoints
+              align_column: year
+          result: population-percentage-datapoints-final
+
+        - procedure: serve
+          ingredients:
+              - population-percentage-datapoints-final
+              - population-datapoints-final
+    concepts:
+        - procedure: merge
+          ingredients:
+              - ontology-concepts
+              - indicator-concepts
+          options:
+              deep: true
+          result: concepts-final
+    entities:
+        - procedure: serve
+          ingredients:
+              - geo-domain

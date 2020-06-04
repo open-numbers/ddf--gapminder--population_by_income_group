@@ -1,0 +1,89 @@
+{
+    "name": "ddf--gapminder--population_by_income_group",
+    "language": {
+        "id": "en"
+    },
+    "title": "ddf--gapminder--population_by_income_group",
+    "description": "",
+    "author": "",
+    "license": "",
+    "base": [
+        "open-numbers/ddf--open_numbers",
+        "open-numbers/ddf--gapminder--population",
+        "open-numbers/ddf--world_bank--world_development_indicators"
+    ],
+    "id": "population by income groups",
+    "translations": [],
+    "created": "2020-06-04T02:53:49.996625+00:00",
+    "resources": [
+        {
+            "name": "ddf--datapoints--population--by--income_groups--year",
+            "path": "ddf--datapoints--population--by--income_groups--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "income_groups"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "population"
+                    }
+                ],
+                "primaryKey": [
+                    "income_groups",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--population_percentage--by--income_groups--year",
+            "path": "ddf--datapoints--population_percentage--by--income_groups--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "income_groups"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "population_percentage"
+                    }
+                ],
+                "primaryKey": [
+                    "income_groups",
+                    "year"
+                ]
+            }
+        }
+    ],
+    "ddfSchema": {
+        "concepts": [],
+        "entities": [],
+        "datapoints": [
+            {
+                "primaryKey": [
+                    "income_groups",
+                    "year"
+                ],
+                "value": "population",
+                "resources": [
+                    "ddf--datapoints--population--by--income_groups--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "income_groups",
+                    "year"
+                ],
+                "value": "population_percentage",
+                "resources": [
+                    "ddf--datapoints--population_percentage--by--income_groups--year"
+                ]
+            }
+        ],
+        "synonyms": []
+    }
+}
