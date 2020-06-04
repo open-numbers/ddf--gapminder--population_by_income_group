@@ -54,6 +54,15 @@ ingredients:
           - concept: population_percentage
             concept_type: measure
             name: Population Percentage
+    - id: other-concepts
+      key: concept
+      data:
+          - concept: year
+            concept_type: time
+            name: Year
+          - concept: tags
+            concept_type: string
+            name: Tags
 
 cooking:
     datapoints:
@@ -139,6 +148,7 @@ cooking:
           ingredients:
               - ontology-concepts
               - indicator-concepts
+              - other-concepts
           options:
               deep: true
           result: concepts-final
