@@ -14,7 +14,7 @@
     ],
     "id": "population by income groups",
     "translations": [],
-    "created": "2020-06-04T06:28:42.703279+00:00",
+    "created": "2020-06-04T13:20:26.745886+00:00",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -62,8 +62,8 @@
             }
         },
         {
-            "name": "ddf--datapoints--population--by--income_groups--year",
-            "path": "ddf--datapoints--population--by--income_groups--year.csv",
+            "name": "ddf--datapoints--population_total--by--income_groups--year",
+            "path": "ddf--datapoints--population_total--by--income_groups--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -73,7 +73,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "population"
+                        "name": "population_total"
                     }
                 ],
                 "primaryKey": [
@@ -83,8 +83,8 @@
             }
         },
         {
-            "name": "ddf--datapoints--population_percentage--by--income_groups--year",
-            "path": "ddf--datapoints--population_percentage--by--income_groups--year.csv",
+            "name": "ddf--datapoints--population_total_percent--by--income_groups--year",
+            "path": "ddf--datapoints--population_total_percent--by--income_groups--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -94,7 +94,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "population_percentage"
+                        "name": "population_total_percent"
                     }
                 ],
                 "primaryKey": [
@@ -1429,9 +1429,9 @@
                     "geo",
                     "year"
                 ],
-                "value": "population",
+                "value": "population_total",
                 "resources": [
-                    "ddf--datapoints--population--by--income_groups--year"
+                    "ddf--datapoints--population_total--by--income_groups--year"
                 ]
             },
             {
@@ -1439,9 +1439,9 @@
                     "income_3groups",
                     "year"
                 ],
-                "value": "population",
+                "value": "population_total",
                 "resources": [
-                    "ddf--datapoints--population--by--income_groups--year"
+                    "ddf--datapoints--population_total--by--income_groups--year"
                 ]
             },
             {
@@ -1449,9 +1449,9 @@
                     "income_groups",
                     "year"
                 ],
-                "value": "population",
+                "value": "population_total",
                 "resources": [
-                    "ddf--datapoints--population--by--income_groups--year"
+                    "ddf--datapoints--population_total--by--income_groups--year"
                 ]
             },
             {
@@ -1459,9 +1459,9 @@
                     "geo",
                     "year"
                 ],
-                "value": "population_percentage",
+                "value": "population_total_percent",
                 "resources": [
-                    "ddf--datapoints--population_percentage--by--income_groups--year"
+                    "ddf--datapoints--population_total_percent--by--income_groups--year"
                 ]
             },
             {
@@ -1469,9 +1469,9 @@
                     "income_3groups",
                     "year"
                 ],
-                "value": "population_percentage",
+                "value": "population_total_percent",
                 "resources": [
-                    "ddf--datapoints--population_percentage--by--income_groups--year"
+                    "ddf--datapoints--population_total_percent--by--income_groups--year"
                 ]
             },
             {
@@ -1479,9 +1479,9 @@
                     "income_groups",
                     "year"
                 ],
-                "value": "population_percentage",
+                "value": "population_total_percent",
                 "resources": [
-                    "ddf--datapoints--population_percentage--by--income_groups--year"
+                    "ddf--datapoints--population_total_percent--by--income_groups--year"
                 ]
             }
         ],

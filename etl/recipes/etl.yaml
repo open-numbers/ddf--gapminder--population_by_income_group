@@ -48,10 +48,10 @@ ingredients:
     - id: indicator-concepts
       key: concept
       data:
-          - concept: population
+          - concept: population_total
             concept_type: measure
             name: Population
-          - concept: population_percentage
+          - concept: population_total_percent
             concept_type: measure
             name: Population Percentage
     - id: other-concepts
@@ -129,15 +129,31 @@ cooking:
                   lic: low_income
                   lmc: lower_middle_income
                   umc: upper_middle_income
-          result: population-datapoints-final
+          result: population-datapoints-final-0
 
         - procedure: custom_procedure.population_percentage
           ingredients:
-              - population-datapoints-final
+              - population-datapoints-final-0
           options:
               world_population: global-population-datapoints
               align_column: year
+          result: population-percentage-datapoints-final-0
+
+        - procedure: translate_header
+          ingredients:
+              - population-percentage-datapoints-final-0
+          options:
+              dictionary:
+                  population_percentage: population_total_percent
           result: population-percentage-datapoints-final
+
+        - procedure: translate_header
+          ingredients:
+              - population-datapoints-final-0
+          options:
+              dictionary:
+                  population: population_total
+          result: population-datapoints-final
 
         - procedure: serve
           ingredients:
