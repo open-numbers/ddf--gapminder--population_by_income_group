@@ -1,0 +1,1495 @@
+2020-06-04 11:37:44 DEBUG Popen(['git', 'version'], cwd=/home/semio/src/work/Gapminder/datasets/open-numbers/ddf--gapminder--population_by_income_group/etl/recipes, universal_newlines=False, shell=None, istream=None)
+2020-06-04 11:37:44 DEBUG Popen(['git', 'version'], cwd=/home/semio/src/work/Gapminder/datasets/open-numbers/ddf--gapminder--population_by_income_group/etl/recipes, universal_newlines=False, shell=None, istream=None)
+building recipe...
+2020-06-04 11:37:44 ddf_utils.chef.model.chef WARNING no serve procedure found, will serve the last result: concepts-final
+2020-06-04 11:37:44 root DEBUG evaluating geo-synonyms
+2020-06-04 11:37:44 root DEBUG evaluating ontology-concepts
+2020-06-04 11:37:44 root DEBUG evaluating geo-domain
+2020-06-04 11:37:44 root DEBUG evaluating wb-countries
+2020-06-04 11:37:44 root DEBUG evaluating wb-income-group-datapoints
+2020-06-04 11:37:44 root DEBUG evaluating population-datapoints
+2020-06-04 11:37:44 root DEBUG evaluating global-population-datapoints
+2020-06-04 11:37:44 root DEBUG evaluating indicator-concepts
+2020-06-04 11:37:44 root DEBUG evaluating population-percentage-datapoints-final
+2020-06-04 11:37:44 root DEBUG evaluating population-datapoints-final
+2020-06-04 11:37:44 root DEBUG evaluating population-datapoints-by-income-group-headers-translated
+2020-06-04 11:37:44 root DEBUG evaluating population-datapoints-by-income-group
+2020-06-04 11:37:44 root DEBUG evaluating population-datapoints-translated
+2020-06-04 11:37:44 root DEBUG evaluating population-datapoints
+2020-06-04 11:37:44 custom_procedure INFO translate_column_over_time: population-datapoints
+2020-06-04 11:37:44 Ingredient INFO evaluating data for population-datapoints
+2020-06-04 11:37:46 root DEBUG evaluating wb-income-group-datapoints-translated
+2020-06-04 11:37:46 root DEBUG evaluating wb-income-group-datapoints
+2020-06-04 11:37:46 translate_column INFO translate_column: wb-income-group-datapoints
+2020-06-04 11:37:46 Ingredient INFO evaluating data for wb-income-group-datapoints
+2020-06-04 11:37:51 root DEBUG evaluating wb-countries-translated
+2020-06-04 11:37:51 root DEBUG evaluating wb-countries
+2020-06-04 11:37:51 translate_column INFO translate_column: wb-countries
+2020-06-04 11:37:51 Ingredient INFO evaluating data for wb-countries
+2020-06-04 11:37:52 root DEBUG evaluating geo-synonyms
+2020-06-04 11:37:52 Ingredient INFO evaluating data for geo-synonyms
+2020-06-04 11:37:53 translate_column DEBUG running on: country
+2020-06-04 11:37:53 Ingredient INFO evaluating data for wb-countries-translated
+2020-06-04 11:37:53 translate_column DEBUG running on: income_4level
+2020-06-04 11:37:53 custom_procedure WARNING 1086 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1087 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1088 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1089 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1090 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1091 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1092 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1093 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1094 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1095 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1096 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1097 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1098 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1099 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1100 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1101 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1102 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1103 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1104 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1105 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1106 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1107 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1108 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1109 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1110 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1111 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1112 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1113 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1114 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1115 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1116 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1117 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1118 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1119 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1120 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1121 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1122 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1123 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1124 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1125 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1126 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1127 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1128 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1129 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1130 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1131 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1132 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1133 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1134 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1135 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1136 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1137 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1138 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1139 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1140 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1141 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1142 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1143 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1144 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1145 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1146 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1147 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1148 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1149 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1150 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1151 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1152 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1153 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1154 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1155 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1156 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1157 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1158 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1159 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1160 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1161 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1162 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1163 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1164 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1165 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1166 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1167 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1168 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1169 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1170 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1171 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1172 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1173 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1174 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1175 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1176 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1177 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1178 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1179 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1180 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1181 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1182 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1183 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1184 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1185 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1186 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1187 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1188 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1189 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1190 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1191 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1192 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1193 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1194 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1195 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1196 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1197 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1198 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1199 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1200 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1201 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1202 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1203 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1204 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1205 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1206 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1207 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1208 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1209 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1210 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1211 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1212 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1213 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1214 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1215 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1216 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1217 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1218 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1219 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1220 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1221 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1222 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1223 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1224 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1225 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1226 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1227 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1228 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1229 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1230 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1231 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1232 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1233 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1234 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1235 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1236 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1237 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1238 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1239 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1240 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1241 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1242 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1243 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1244 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1245 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1246 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1247 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1248 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1249 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1250 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1251 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1252 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1253 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1254 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1255 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1256 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1257 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1258 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1259 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1260 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1261 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1262 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1263 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1264 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1265 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1266 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1267 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1268 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1269 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1270 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1271 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1272 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1273 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1274 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1275 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1276 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1277 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1278 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1279 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1280 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1281 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1282 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1283 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1284 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1285 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1286 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1287 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1288 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1289 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1290 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1291 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1292 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1293 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1294 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1295 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1296 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1297 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1298 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1299 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1300 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1301 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1302 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1303 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1304 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1305 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1306 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1307 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1308 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1309 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1310 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1311 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1312 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1313 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1314 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1315 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1316 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1317 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1318 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1319 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1320 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1321 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1322 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1323 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1324 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1325 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1326 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1327 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1328 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1329 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1330 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1331 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1332 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1333 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1334 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1335 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1336 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1337 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1338 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1339 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1340 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1341 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1342 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1343 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1344 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1345 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1346 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1347 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1348 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1349 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1350 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1351 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1352 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1353 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1354 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1355 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1356 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1357 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1358 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1359 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1360 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1361 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1362 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1363 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1364 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1365 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1366 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1367 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1368 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1369 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1370 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1371 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1372 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1373 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1374 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1375 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1376 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1377 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1378 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1379 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1380 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1381 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1382 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1383 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1384 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1385 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1386 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1387 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1388 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1389 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1390 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1391 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1392 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1393 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1394 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1395 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1396 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1397 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1398 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1399 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1400 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1401 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1402 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1403 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1404 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1405 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1406 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1407 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1408 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1409 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1410 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1411 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1412 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1413 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1414 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1415 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1416 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1417 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1418 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1419 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1420 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1421 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1422 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1423 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1424 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1425 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1426 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1427 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1428 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1429 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1430 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1431 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1432 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1433 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1434 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1435 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1436 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1437 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1438 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1439 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1440 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1441 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1442 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1443 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1444 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1445 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1446 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1447 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1448 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1449 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1450 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1451 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1452 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1453 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1454 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1455 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1456 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1457 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1458 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1459 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1460 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1461 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1462 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1463 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1464 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1465 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1466 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1467 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1468 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1469 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1470 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1471 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1472 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1473 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1474 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1475 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1476 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1477 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1478 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1479 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1480 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1481 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1482 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1483 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1484 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1485 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1486 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1487 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1488 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1489 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1490 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1491 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1492 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1493 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1494 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1495 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1496 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1497 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1498 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1499 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1500 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1501 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1502 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1503 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1504 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1505 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1506 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1507 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1508 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1509 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1510 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1511 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1512 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1513 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1514 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1515 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1516 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1517 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1518 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1519 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1520 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1521 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1522 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1523 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1524 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1525 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1526 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1527 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1528 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1529 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1530 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1531 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1532 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1533 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1534 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1535 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1536 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1537 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1538 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1539 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1540 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1541 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1542 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1543 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1544 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1545 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1546 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1547 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1548 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1549 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1550 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1551 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1552 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1553 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1554 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1555 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1556 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1557 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1558 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1559 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1560 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1561 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1562 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1563 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1564 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1565 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1566 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1567 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1568 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1569 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1570 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1571 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1572 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1573 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1574 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1575 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1576 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1577 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1578 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1579 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1580 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1581 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1582 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1583 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1584 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1585 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1586 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1587 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1588 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1589 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1590 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1591 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1592 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1593 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1594 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1595 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1596 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1597 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1598 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1599 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1600 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1601 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1602 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1603 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1604 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1605 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1606 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1607 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1608 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1609 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1610 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1611 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1612 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1613 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1614 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1615 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1616 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1617 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1618 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1619 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1620 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1621 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1622 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1623 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1624 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1625 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1626 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1627 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1628 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1629 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1630 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1631 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1632 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1633 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1634 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1635 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1636 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1637 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1638 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1639 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1640 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1641 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1642 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1643 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1644 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1645 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1646 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1647 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1648 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1649 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1650 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1651 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1652 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1653 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1654 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1655 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1656 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1657 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1658 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1659 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1660 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1661 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1662 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1663 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1664 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1665 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1666 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1667 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1668 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1669 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1670 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1671 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1672 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1673 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1674 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1675 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1676 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1677 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1678 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1679 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1680 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1681 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1682 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1683 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1684 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1685 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1686 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1687 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1688 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1689 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1690 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1691 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1692 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1693 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1694 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1695 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1696 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1697 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1698 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1699 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1700 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1701 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1702 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1703 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1704 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1705 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1706 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1707 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1708 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1709 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1710 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1711 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1712 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1713 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1714 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1715 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1716 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1717 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1718 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1719 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1720 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1721 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1722 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1723 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1724 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1725 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1726 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1727 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1728 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1729 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1730 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1731 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1732 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1733 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1734 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1735 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1736 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1737 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1738 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1739 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1740 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1741 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1742 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1743 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1744 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1745 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1746 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1747 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1748 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1749 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1750 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1751 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1752 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1753 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1754 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1755 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1756 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1757 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1758 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1759 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1760 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1761 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1762 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1763 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1764 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1765 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1766 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1767 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1768 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1769 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1770 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1771 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1772 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1773 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1774 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1775 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1776 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1777 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1778 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1779 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1780 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1781 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1782 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1783 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1784 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1785 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1786 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1787 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1788 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1789 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1790 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1791 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1792 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1793 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1794 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1795 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1796 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1797 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1798 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1799 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1800 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1801 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1802 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1803 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1804 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1805 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1806 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1807 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1808 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1809 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1810 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1811 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1812 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1813 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1814 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1815 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1816 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1817 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1818 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1819 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1820 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1821 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1822 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1823 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1824 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1825 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1826 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1827 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1828 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1829 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1830 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1831 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1832 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1833 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1834 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1835 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1836 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1837 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1838 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1839 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1840 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1841 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1842 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1843 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1844 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1845 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1846 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1847 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1848 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1849 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1850 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1851 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1852 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1853 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1854 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1855 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1856 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1857 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1858 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1859 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1860 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1861 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1862 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1863 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1864 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1865 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1866 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1867 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1868 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1869 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1870 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1871 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1872 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1873 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1874 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1875 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1876 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1877 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1878 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1879 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1880 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1881 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1882 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1883 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1884 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1885 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1886 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1887 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1888 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1889 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1890 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1891 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1892 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1893 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1894 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1895 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1896 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1897 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1898 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1899 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1900 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1901 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1902 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1903 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1904 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1905 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1906 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1907 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1908 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1909 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1910 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1911 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1912 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1913 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1914 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1915 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1916 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1917 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1918 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1919 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1920 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1921 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1922 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1923 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1924 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1925 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1926 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1927 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1928 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1929 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1930 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1931 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1932 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1933 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1934 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1935 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1936 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1937 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1938 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1939 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1940 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1941 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1942 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1943 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1944 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1945 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1946 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1947 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1948 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1949 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1950 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1951 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1952 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1953 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1954 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1955 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1956 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1957 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1958 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1959 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1960 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1961 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1962 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1963 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1964 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1965 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1966 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1967 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1968 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1969 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1970 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1971 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1972 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1973 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1974 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1975 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1976 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1977 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1978 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1979 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1980 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1981 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1982 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1983 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1984 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1985 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure WARNING 1986 not found in mapping dictionary, skipping
+2020-06-04 11:37:53 custom_procedure DEBUG running on: 1987
+2020-06-04 11:37:53 ddf_utils.transformer WARNING key not found:
+2020-06-04 11:37:53 ddf_utils.transformer WARNING ['nru', 'stbar', 'blr', 'msr', 'cym', 'ltu', 'pse', 'bgr', 'and', 'pcn', 'yem_south', 'fsm', 'dji', 'jey', 'ala', 'aze', 'mda', 'geo', 'nam', 'arm', 'hos', 'korea_union', 'cck', 'niu', 'shn', 'tjk', 'ussr', 'hrv', 'smr', 'mkd', 'lva', 'tca', 'kgz', 'cheslo', 'tls', 'wlf', 'myt', 'stmar', 'nfk', 'glp', 'esh', 'mhl', 'mtq', 'mne', 'cxr', 'gbg', 'aia', 'alb', 'lie', 'tuv', 'deu_east', 'cpv', 'ago', 'mng', 'deu_west', 'cze', 'svn', 'reu', 'eri', 'plw', 'bih', 'mnp', 'scg', 'akr_a_dhe', 'kaz', 'mco', 'cub', 'tkl', 'uzb', 'yem_north', 'kos', 'eri_a_eth', 'vgb', 'pyf', 'flk', 'scg_ex_kos', 'spm', 'svk', 'prk', 'srb', 'cok', 'ukr', 'sjm', 'ssd', 'rus', 'guf', 'tkm', 'est']
+2020-06-04 11:37:53 custom_procedure DEBUG running on: 1988
+2020-06-04 11:37:53 ddf_utils.transformer WARNING key not found:
+2020-06-04 11:37:53 ddf_utils.transformer WARNING ['nru', 'stbar', 'blr', 'msr', 'cym', 'ltu', 'pse', 'bgr', 'and', 'pcn', 'yem_south', 'fsm', 'dji', 'jey', 'ala', 'aze', 'mda', 'geo', 'nam', 'arm', 'hos', 'korea_union', 'cck', 'niu', 'shn', 'tjk', 'ussr', 'hrv', 'smr', 'mkd', 'lva', 'tca', 'kgz', 'cheslo', 'tls', 'wlf', 'myt', 'stmar', 'nfk', 'glp', 'esh', 'mhl', 'mtq', 'mne', 'cxr', 'gbg', 'aia', 'alb', 'lie', 'tuv', 'deu_east', 'mng', 'deu_west', 'cze', 'svn', 'reu', 'eri', 'plw', 'bih', 'mnp', 'scg', 'akr_a_dhe', 'kaz', 'mco', 'cub', 'tkl', 'uzb', 'yem_north', 'kos', 'eri_a_eth', 'vgb', 'pyf', 'flk', 'scg_ex_kos', 'spm', 'svk', 'prk', 'srb', 'cok', 'ukr', 'sjm', 'ssd', 'rus', 'guf', 'brn', 'tkm', 'est']
+2020-06-04 11:37:53 custom_procedure DEBUG running on: 1989
+2020-06-04 11:37:53 ddf_utils.transformer WARNING key not found:
+2020-06-04 11:37:53 ddf_utils.transformer WARNING ['nru', 'stbar', 'blr', 'msr', 'cym', 'ltu', 'pse', 'and', 'pcn', 'yem_south', 'fsm', 'dji', 'jey', 'ala', 'aze', 'mda', 'geo', 'arm', 'hos', 'korea_union', 'cck', 'niu', 'shn', 'tjk', 'ussr', 'hrv', 'smr', 'mkd', 'lva', 'tca', 'kgz', 'cheslo', 'tls', 'wlf', 'myt', 'stmar', 'nfk', 'glp', 'esh', 'mhl', 'mtq', 'mne', 'cxr', 'gbg', 'aia', 'alb', 'lie', 'tuv', 'deu_east', 'deu_west', 'cze', 'svn', 'reu', 'eri', 'plw', 'bih', 'mnp', 'scg', 'akr_a_dhe', 'kaz', 'mco', 'cub', 'tkl', 'uzb', 'yem_north', 'kos', 'eri_a_eth', 'vgb', 'pyf', 'flk', 'scg_ex_kos', 'spm', 'svk', 'prk', 'srb', 'cok', 'ukr', 'sjm', 'ssd', 'rus', 'guf', 'brn', 'tkm', 'est']
+2020-06-04 11:37:53 custom_procedure DEBUG running on: 1990
+2020-06-04 11:37:53 ddf_utils.transformer WARNING key not found:
+2020-06-04 11:37:53 ddf_utils.transformer WARNING ['geo', 'eri_a_eth', 'vgb', 'nru', 'lie', 'tuv', 'flk', 'deu_east', 'arm', 'stbar', 'hos', 'scg_ex_kos', 'tjk', 'spm', 'svk', 'srb', 'blr', 'cok', 'ukr', 'sjm', 'korea_union', 'cck', 'deu_west', 'niu', 'cze', 'msr', 'hrv', 'rus', 'shn', 'smr', 'mkd', 'cym', 'ltu', 'lva', 'svn', 'tca', 'reu', 'kgz', 'pse', 'eri', 'plw', 'bih', 'tls', 'guf', 'wlf', 'mnp', 'pcn', 'scg', 'yem_south', 'stmar', 'akr_a_dhe', 'nfk', 'fsm', 'kaz', 'glp', 'jey', 'esh', 'ala', 'mco', 'mhl', 'tkl', 'aze', 'mda', 'mne', 'cxr', 'mtq', 'gbg', 'ssd', 'tkm', 'uzb', 'yem_north', 'aia', 'kos', 'est']
+2020-06-04 11:37:53 custom_procedure DEBUG running on: 1991
+2020-06-04 11:37:53 ddf_utils.transformer WARNING key not found:
+2020-06-04 11:37:53 ddf_utils.transformer WARNING ['eri_a_eth', 'vgb', 'nru', 'lie', 'tuv', 'flk', 'deu_east', 'stbar', 'hos', 'scg_ex_kos', 'spm', 'svk', 'srb', 'cok', 'sjm', 'korea_union', 'cck', 'deu_west', 'niu', 'cze', 'msr', 'hrv', 'shn', 'ssd', 'ussr', 'mkd', 'cym', 'svn', 'tca', 'reu', 'pse', 'eri', 'plw', 'bih', 'tls', 'guf', 'wlf', 'mnp', 'pcn', 'scg', 'yem_south', 'stmar', 'akr_a_dhe', 'nfk', 'glp', 'jey', 'esh', 'ala', 'mco', 'tkl', 'mtq', 'mne', 'cxr', 'gbg', 'yem_north', 'aia', 'kos']
+2020-06-04 11:37:53 custom_procedure DEBUG running on: 1992
+2020-06-04 11:37:53 ddf_utils.transformer WARNING key not found:
+2020-06-04 11:37:53 ddf_utils.transformer WARNING ['eri_a_eth', 'vgb', 'nru', 'lie', 'tuv', 'flk', 'deu_east', 'stbar', 'hos', 'scg_ex_kos', 'spm', 'srb', 'cok', 'sjm', 'korea_union', 'cck', 'deu_west', 'niu', 'msr', 'shn', 'ssd', 'ussr', 'cym', 'tca', 'reu', 'pse', 'cheslo', 'plw', 'tls', 'guf', 'yug', 'wlf', 'pcn', 'yem_south', 'stmar', 'akr_a_dhe', 'nfk', 'glp', 'jey', 'esh', 'ala', 'mco', 'tkl', 'mtq', 'mne', 'cxr', 'gbg', 'yem_north', 'aia', 'kos']
+2020-06-04 11:37:53 custom_procedure DEBUG running on: 1993
+2020-06-04 11:37:53 ddf_utils.transformer WARNING key not found:
+2020-06-04 11:37:53 ddf_utils.transformer WARNING ['eri_a_eth', 'vgb', 'nru', 'lie', 'tuv', 'flk', 'deu_east', 'stbar', 'hos', 'scg_ex_kos', 'spm', 'srb', 'cok', 'sjm', 'korea_union', 'cck', 'deu_west', 'niu', 'msr', 'shn', 'ssd', 'ussr', 'tca', 'reu', 'pse', 'cheslo', 'plw', 'tls', 'guf', 'yug', 'wlf', 'pcn', 'yem_south', 'stmar', 'akr_a_dhe', 'nfk', 'glp', 'jey', 'esh', 'ala', 'mco', 'tkl', 'mtq', 'mne', 'cxr', 'gbg', 'yem_north', 'aia', 'kos']
+2020-06-04 11:37:53 custom_procedure DEBUG running on: 1994
+2020-06-04 11:37:53 ddf_utils.transformer WARNING key not found:
+2020-06-04 11:37:53 ddf_utils.transformer WARNING ['eri_a_eth', 'vgb', 'nru', 'tuv', 'flk', 'deu_east', 'stbar', 'hos', 'scg_ex_kos', 'spm', 'srb', 'cok', 'sjm', 'korea_union', 'cck', 'deu_west', 'niu', 'msr', 'shn', 'ssd', 'ussr', 'smr', 'tca', 'reu', 'cheslo', 'plw', 'gib', 'tls', 'guf', 'yug', 'wlf', 'pcn', 'yem_south', 'stmar', 'akr_a_dhe', 'nfk', 'glp', 'jey', 'esh', 'ala', 'tkl', 'mtq', 'mne', 'cxr', 'gbg', 'yem_north', 'aia', 'kos']
+2020-06-04 11:37:53 custom_procedure DEBUG running on: 1995
+2020-06-04 11:37:53 ddf_utils.transformer WARNING key not found:
+2020-06-04 11:37:53 ddf_utils.transformer WARNING ['eri_a_eth', 'vgb', 'nru', 'tuv', 'flk', 'deu_east', 'stbar', 'hos', 'scg_ex_kos', 'spm', 'srb', 'cok', 'sjm', 'korea_union', 'cck', 'deu_west', 'niu', 'msr', 'shn', 'ssd', 'ussr', 'smr', 'tca', 'reu', 'cheslo', 'plw', 'gib', 'tls', 'guf', 'yug', 'wlf', 'pcn', 'yem_south', 'stmar', 'akr_a_dhe', 'nfk', 'glp', 'jey', 'esh', 'ala', 'tkl', 'mtq', 'mne', 'cxr', 'gbg', 'yem_north', 'aia', 'kos']
+2020-06-04 11:37:53 custom_procedure DEBUG running on: 1996
+2020-06-04 11:37:54 ddf_utils.transformer WARNING key not found:
+2020-06-04 11:37:54 ddf_utils.transformer WARNING ['eri_a_eth', 'vgb', 'nru', 'tuv', 'flk', 'deu_east', 'stbar', 'hos', 'scg_ex_kos', 'spm', 'srb', 'cok', 'sjm', 'korea_union', 'cck', 'deu_west', 'niu', 'msr', 'shn', 'ssd', 'ussr', 'smr', 'tca', 'reu', 'cheslo', 'gib', 'tls', 'guf', 'yug', 'wlf', 'pcn', 'yem_south', 'stmar', 'akr_a_dhe', 'nfk', 'glp', 'jey', 'esh', 'ala', 'tkl', 'mtq', 'mne', 'cxr', 'gbg', 'yem_north', 'aia', 'kos']
+2020-06-04 11:37:54 custom_procedure DEBUG running on: 1997
+2020-06-04 11:37:54 ddf_utils.transformer WARNING key not found:
+2020-06-04 11:37:54 ddf_utils.transformer WARNING ['eri_a_eth', 'vgb', 'nru', 'tuv', 'flk', 'deu_east', 'stbar', 'hos', 'scg_ex_kos', 'spm', 'srb', 'cok', 'sjm', 'korea_union', 'cck', 'deu_west', 'niu', 'msr', 'shn', 'ssd', 'ussr', 'smr', 'tca', 'reu', 'cheslo', 'gib', 'tls', 'guf', 'yug', 'wlf', 'pcn', 'yem_south', 'stmar', 'akr_a_dhe', 'nfk', 'glp', 'jey', 'esh', 'ala', 'tkl', 'mtq', 'mne', 'cxr', 'gbg', 'yem_north', 'aia', 'kos']
+2020-06-04 11:37:54 custom_procedure DEBUG running on: 1998
+2020-06-04 11:37:54 ddf_utils.transformer WARNING key not found:
+2020-06-04 11:37:54 ddf_utils.transformer WARNING ['eri_a_eth', 'vgb', 'nru', 'tuv', 'flk', 'deu_east', 'stbar', 'hos', 'scg_ex_kos', 'spm', 'srb', 'cok', 'sjm', 'korea_union', 'cck', 'deu_west', 'niu', 'msr', 'shn', 'ssd', 'ussr', 'smr', 'tca', 'reu', 'cheslo', 'gib', 'tls', 'guf', 'yug', 'wlf', 'pcn', 'yem_south', 'stmar', 'akr_a_dhe', 'nfk', 'glp', 'jey', 'esh', 'ala', 'tkl', 'mtq', 'mne', 'cxr', 'gbg', 'yem_north', 'aia', 'kos']
+2020-06-04 11:37:54 custom_procedure DEBUG running on: 1999
+2020-06-04 11:37:54 ddf_utils.transformer WARNING key not found:
+2020-06-04 11:37:54 ddf_utils.transformer WARNING ['eri_a_eth', 'vgb', 'nru', 'tuv', 'flk', 'deu_east', 'stbar', 'hos', 'scg_ex_kos', 'spm', 'srb', 'cok', 'sjm', 'korea_union', 'cck', 'deu_west', 'niu', 'msr', 'shn', 'ssd', 'ussr', 'smr', 'tca', 'reu', 'cheslo', 'gib', 'tls', 'guf', 'yug', 'wlf', 'pcn', 'yem_south', 'stmar', 'akr_a_dhe', 'nfk', 'glp', 'jey', 'esh', 'ala', 'tkl', 'mtq', 'mne', 'cxr', 'gbg', 'yem_north', 'aia', 'kos']
+2020-06-04 11:37:54 custom_procedure DEBUG running on: 2000
+2020-06-04 11:37:54 ddf_utils.transformer WARNING key not found:
+2020-06-04 11:37:54 ddf_utils.transformer WARNING ['eri_a_eth', 'vgb', 'nru', 'tuv', 'flk', 'deu_east', 'stbar', 'hos', 'scg_ex_kos', 'spm', 'srb', 'cok', 'sjm', 'korea_union', 'cck', 'deu_west', 'niu', 'msr', 'shn', 'ssd', 'ussr', 'tca', 'reu', 'cheslo', 'gib', 'tls', 'guf', 'yug', 'wlf', 'pcn', 'yem_south', 'stmar', 'akr_a_dhe', 'nfk', 'glp', 'jey', 'esh', 'ala', 'tkl', 'mtq', 'mne', 'cxr', 'gbg', 'yem_north', 'aia', 'kos']
+2020-06-04 11:37:54 custom_procedure DEBUG running on: 2001
+2020-06-04 11:37:54 ddf_utils.transformer WARNING key not found:
+2020-06-04 11:37:54 ddf_utils.transformer WARNING ['eri_a_eth', 'vgb', 'nru', 'tuv', 'flk', 'deu_east', 'stbar', 'hos', 'scg_ex_kos', 'spm', 'srb', 'cok', 'sjm', 'korea_union', 'cck', 'deu_west', 'niu', 'msr', 'shn', 'ssd', 'ussr', 'tca', 'reu', 'cheslo', 'gib', 'guf', 'yug', 'wlf', 'pcn', 'yem_south', 'stmar', 'akr_a_dhe', 'nfk', 'glp', 'jey', 'esh', 'ala', 'tkl', 'mtq', 'mne', 'cxr', 'gbg', 'yem_north', 'aia', 'kos']
+2020-06-04 11:37:54 custom_procedure DEBUG running on: 2002
+2020-06-04 11:37:54 ddf_utils.transformer WARNING key not found:
+2020-06-04 11:37:54 ddf_utils.transformer WARNING ['eri_a_eth', 'vgb', 'nru', 'tuv', 'flk', 'deu_east', 'stbar', 'hos', 'scg_ex_kos', 'spm', 'srb', 'cok', 'sjm', 'korea_union', 'cck', 'deu_west', 'niu', 'msr', 'shn', 'ssd', 'ussr', 'tca', 'reu', 'cheslo', 'gib', 'guf', 'yug', 'wlf', 'pcn', 'yem_south', 'stmar', 'akr_a_dhe', 'nfk', 'glp', 'jey', 'esh', 'ala', 'tkl', 'mtq', 'mne', 'cxr', 'gbg', 'yem_north', 'aia', 'kos']
+2020-06-04 11:37:54 custom_procedure DEBUG running on: 2003
+2020-06-04 11:37:54 ddf_utils.transformer WARNING key not found:
+2020-06-04 11:37:54 ddf_utils.transformer WARNING ['eri_a_eth', 'vgb', 'nru', 'tuv', 'flk', 'deu_east', 'stbar', 'hos', 'scg_ex_kos', 'spm', 'srb', 'cok', 'sjm', 'korea_union', 'cck', 'deu_west', 'niu', 'msr', 'shn', 'ssd', 'ussr', 'tca', 'reu', 'cheslo', 'gib', 'guf', 'yug', 'wlf', 'pcn', 'yem_south', 'stmar', 'akr_a_dhe', 'nfk', 'glp', 'jey', 'esh', 'ala', 'tkl', 'mtq', 'mne', 'cxr', 'gbg', 'yem_north', 'aia', 'kos']
+2020-06-04 11:37:54 custom_procedure DEBUG running on: 2004
+2020-06-04 11:37:54 ddf_utils.transformer WARNING key not found:
+2020-06-04 11:37:54 ddf_utils.transformer WARNING ['eri_a_eth', 'vgb', 'nru', 'tuv', 'flk', 'deu_east', 'stbar', 'hos', 'scg_ex_kos', 'spm', 'srb', 'cok', 'sjm', 'korea_union', 'cck', 'deu_west', 'niu', 'msr', 'shn', 'ssd', 'ussr', 'tca', 'reu', 'cheslo', 'gib', 'guf', 'yug', 'wlf', 'pcn', 'yem_south', 'stmar', 'akr_a_dhe', 'nfk', 'glp', 'jey', 'esh', 'ala', 'tkl', 'mtq', 'mne', 'cxr', 'gbg', 'yem_north', 'aia', 'kos']
+2020-06-04 11:37:54 custom_procedure DEBUG running on: 2005
+2020-06-04 11:37:54 ddf_utils.transformer WARNING key not found:
+2020-06-04 11:37:54 ddf_utils.transformer WARNING ['eri_a_eth', 'vgb', 'nru', 'tuv', 'flk', 'deu_east', 'stbar', 'hos', 'scg_ex_kos', 'spm', 'srb', 'cok', 'sjm', 'korea_union', 'cck', 'deu_west', 'niu', 'msr', 'shn', 'ssd', 'ussr', 'tca', 'reu', 'cheslo', 'gib', 'guf', 'yug', 'wlf', 'pcn', 'yem_south', 'stmar', 'akr_a_dhe', 'nfk', 'glp', 'jey', 'esh', 'ala', 'tkl', 'mtq', 'mne', 'cxr', 'gbg', 'yem_north', 'aia', 'kos']
+2020-06-04 11:37:54 custom_procedure DEBUG running on: 2006
+2020-06-04 11:37:54 ddf_utils.transformer WARNING key not found:
+2020-06-04 11:37:54 ddf_utils.transformer WARNING ['eri_a_eth', 'vgb', 'nru', 'tuv', 'flk', 'deu_east', 'stbar', 'hos', 'scg_ex_kos', 'spm', 'cok', 'sjm', 'korea_union', 'cck', 'deu_west', 'niu', 'msr', 'shn', 'ssd', 'ussr', 'tca', 'reu', 'cheslo', 'gib', 'guf', 'yug', 'wlf', 'scg', 'pcn', 'yem_south', 'stmar', 'akr_a_dhe', 'nfk', 'glp', 'jey', 'esh', 'ala', 'tkl', 'mtq', 'cxr', 'gbg', 'yem_north', 'aia', 'kos']
+2020-06-04 11:37:54 custom_procedure DEBUG running on: 2007
+2020-06-04 11:37:54 ddf_utils.transformer WARNING key not found:
+2020-06-04 11:37:54 ddf_utils.transformer WARNING ['eri_a_eth', 'vgb', 'nru', 'tuv', 'flk', 'deu_east', 'stbar', 'hos', 'scg_ex_kos', 'spm', 'cok', 'sjm', 'korea_union', 'cck', 'deu_west', 'niu', 'msr', 'shn', 'ssd', 'ussr', 'tca', 'reu', 'cheslo', 'gib', 'guf', 'yug', 'wlf', 'scg', 'pcn', 'yem_south', 'stmar', 'akr_a_dhe', 'nfk', 'glp', 'jey', 'esh', 'ala', 'tkl', 'mtq', 'cxr', 'gbg', 'yem_north', 'aia', 'kos']
+2020-06-04 11:37:54 custom_procedure DEBUG running on: 2008
+2020-06-04 11:37:54 ddf_utils.transformer WARNING key not found:
+2020-06-04 11:37:54 ddf_utils.transformer WARNING ['eri_a_eth', 'vgb', 'nru', 'tuv', 'flk', 'deu_east', 'stbar', 'hos', 'scg_ex_kos', 'spm', 'cok', 'sjm', 'korea_union', 'cck', 'deu_west', 'niu', 'msr', 'shn', 'ssd', 'ussr', 'tca', 'reu', 'cheslo', 'gib', 'guf', 'yug', 'wlf', 'scg', 'pcn', 'yem_south', 'stmar', 'akr_a_dhe', 'nfk', 'glp', 'jey', 'esh', 'ala', 'tkl', 'mtq', 'cxr', 'gbg', 'yem_north', 'aia']
+2020-06-04 11:37:54 custom_procedure DEBUG running on: 2009
+2020-06-04 11:37:54 ddf_utils.transformer WARNING key not found:
+2020-06-04 11:37:54 ddf_utils.transformer WARNING ['vgb', 'nru', 'flk', 'stbar', 'hos', 'spm', 'cok', 'niu', 'cck', 'shn', 'ssd', 'msr', 'reu', 'guf', 'wlf', 'pcn', 'glp', 'esh', 'ala', 'tkl', 'mtq', 'cxr', 'aia']
+2020-06-04 11:37:54 custom_procedure DEBUG running on: 2010
+2020-06-04 11:37:54 ddf_utils.transformer WARNING key not found:
+2020-06-04 11:37:54 ddf_utils.transformer WARNING ['vgb', 'nru', 'flk', 'stbar', 'hos', 'spm', 'cok', 'niu', 'cck', 'shn', 'ssd', 'msr', 'reu', 'guf', 'wlf', 'pcn', 'glp', 'esh', 'ala', 'tkl', 'mtq', 'cxr', 'ant', 'aia']
+2020-06-04 11:37:54 custom_procedure DEBUG running on: 2011
+2020-06-04 11:37:54 ddf_utils.transformer WARNING key not found:
+2020-06-04 11:37:54 ddf_utils.transformer WARNING ['vgb', 'nru', 'flk', 'hos', 'spm', 'cok', 'niu', 'shn', 'msr', 'reu', 'gib', 'guf', 'wlf', 'myt', 'glp', 'esh', 'tkl', 'mtq', 'ant', 'aia']
+2020-06-04 11:37:54 custom_procedure DEBUG running on: 2012
+2020-06-04 11:37:54 ddf_utils.transformer WARNING key not found:
+2020-06-04 11:37:54 ddf_utils.transformer WARNING ['vgb', 'nru', 'flk', 'hos', 'spm', 'cok', 'niu', 'shn', 'msr', 'reu', 'gib', 'guf', 'wlf', 'myt', 'glp', 'esh', 'tkl', 'mtq', 'ant', 'aia']
+2020-06-04 11:37:54 custom_procedure DEBUG running on: 2013
+2020-06-04 11:37:54 ddf_utils.transformer WARNING key not found:
+2020-06-04 11:37:54 ddf_utils.transformer WARNING ['vgb', 'nru', 'flk', 'hos', 'spm', 'cok', 'niu', 'shn', 'msr', 'reu', 'gib', 'guf', 'wlf', 'myt', 'glp', 'esh', 'tkl', 'mtq', 'ant', 'aia']
+2020-06-04 11:37:54 custom_procedure DEBUG running on: 2014
+2020-06-04 11:37:54 ddf_utils.transformer WARNING key not found:
+2020-06-04 11:37:54 ddf_utils.transformer WARNING ['vgb', 'nru', 'flk', 'hos', 'spm', 'cok', 'niu', 'shn', 'msr', 'reu', 'gib', 'guf', 'wlf', 'myt', 'glp', 'esh', 'tkl', 'mtq', 'ant', 'aia']
+2020-06-04 11:37:54 custom_procedure DEBUG running on: 2015
+2020-06-04 11:37:54 ddf_utils.transformer WARNING key not found:
+2020-06-04 11:37:54 ddf_utils.transformer WARNING ['glp', 'esh', 'cok', 'reu', 'guf', 'flk', 'niu', 'shn', 'tkl', 'mtq', 'msr', 'wlf', 'myt', 'hos', 'spm', 'ant', 'aia']
+2020-06-04 11:37:54 custom_procedure DEBUG running on: 2016
+2020-06-04 11:37:54 ddf_utils.transformer WARNING key not found:
+2020-06-04 11:37:54 ddf_utils.transformer WARNING ['glp', 'esh', 'cok', 'reu', 'guf', 'flk', 'niu', 'shn', 'tkl', 'mtq', 'msr', 'wlf', 'myt', 'hos', 'spm', 'ant', 'aia']
+2020-06-04 11:37:54 custom_procedure DEBUG running on: 2017
+2020-06-04 11:37:54 ddf_utils.transformer WARNING key not found:
+2020-06-04 11:37:54 ddf_utils.transformer WARNING ['glp', 'esh', 'cok', 'reu', 'guf', 'flk', 'niu', 'shn', 'tkl', 'mtq', 'msr', 'wlf', 'myt', 'hos', 'spm', 'ant', 'aia']
+2020-06-04 11:37:54 custom_procedure DEBUG running on: 2018
+2020-06-04 11:37:54 ddf_utils.transformer WARNING key not found:
+2020-06-04 11:37:54 ddf_utils.transformer WARNING ['glp', 'esh', 'cok', 'reu', 'guf', 'flk', 'niu', 'shn', 'tkl', 'mtq', 'msr', 'wlf', 'myt', 'hos', 'spm', 'ant', 'aia']
+2020-06-04 11:37:54 custom_procedure WARNING 2019 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2020 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2021 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2022 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2023 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2024 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2025 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2026 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2027 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2028 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2029 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2030 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2031 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2032 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2033 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2034 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2035 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2036 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2037 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2038 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2039 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2040 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2041 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2042 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2043 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2044 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2045 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2046 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2047 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2048 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2049 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2050 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2051 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2052 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2053 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2054 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2055 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2056 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2057 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2058 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2059 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2060 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2061 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2062 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2063 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2064 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2065 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2066 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2067 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2068 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2069 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2070 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2071 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2072 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2073 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2074 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2075 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2076 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2077 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2078 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2079 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2080 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2081 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2082 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2083 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2084 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2085 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2086 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2087 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2088 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2089 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2090 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2091 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2092 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2093 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2094 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2095 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2096 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2097 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2098 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2099 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 custom_procedure WARNING 2100 not found in mapping dictionary, skipping
+2020-06-04 11:37:54 groupby INFO groupby: population-datapoints-translated
+2020-06-04 11:37:54 Ingredient INFO evaluating data for population-datapoints-translated
+2020-06-04 11:37:54 groupby DEBUG changing the key to: country,year
+2020-06-04 11:37:54 translate_header INFO translate_header: population-datapoints-by-income-group
+2020-06-04 11:37:54 Ingredient INFO evaluating data for population-datapoints-by-income-group
+2020-06-04 11:37:54 translate_column INFO translate_column: population-datapoints-by-income-group-headers-translated
+2020-06-04 11:37:54 Ingredient INFO evaluating data for population-datapoints-by-income-group-headers-translated
+2020-06-04 11:37:54 translate_column DEBUG running on: population
+2020-06-04 11:37:54 root DEBUG evaluating global-population-datapoints
+2020-06-04 11:37:54 Ingredient INFO evaluating data for global-population-datapoints
+2020-06-04 11:37:55 root DEBUG evaluating population-datapoints-final
+2020-06-04 11:37:55 Ingredient INFO evaluating data for population-datapoints-final
+2020-06-04 11:37:55 root DEBUG evaluating concepts-final
+2020-06-04 11:37:55 root DEBUG evaluating ontology-concepts
+2020-06-04 11:37:55 root DEBUG evaluating indicator-concepts
+2020-06-04 11:37:55 merge INFO merge: ['ontology-concepts', 'indicator-concepts']
+2020-06-04 11:37:55 merge INFO merge: doing deep merge
+2020-06-04 11:37:55 Ingredient INFO evaluating data for ontology-concepts
+2020-06-04 11:37:55 Ingredient INFO evaluating data for indicator-concepts
+2020-06-04 11:37:55 root DEBUG evaluating geo-domain
+2020-06-04 11:37:55 root DEBUG evaluating population-percentage-datapoints-final
+2020-06-04 11:37:55 Ingredient INFO evaluating data for population-percentage-datapoints-final
+2020-06-04 11:37:55 Ingredient INFO serving: population-percentage-datapoints-final
+2020-06-04 11:37:55 root DEBUG evaluating population-datapoints-final
+2020-06-04 11:37:55 Ingredient INFO evaluating data for population-datapoints-final
+2020-06-04 11:37:55 Ingredient INFO serving: population-datapoints-final
+2020-06-04 11:37:55 root DEBUG evaluating concepts-final
+2020-06-04 11:37:55 Ingredient INFO evaluating data for concepts-final
+2020-06-04 11:37:55 Ingredient INFO serving: concepts-final
+2020-06-04 11:37:55 root DEBUG evaluating geo-domain
+2020-06-04 11:37:55 Ingredient INFO evaluating data for geo-domain
+2020-06-04 11:37:55 Ingredient INFO serving: geo-domain
+creating datapackage file...
+backup old datapackage.json to datapackage.json.bak
+2020-06-04 11:37:57 root WARNING skipping file datapackage.json
+2020-06-04 11:37:57 root WARNING skipping file datapackage.json.bak
+2020-06-04 11:37:57 root WARNING skipping file .gitignore
+2020-06-04 11:37:57 ddf_utils.package INFO generating ddf schema, may take some time...
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG working on: ddf--datapoints--population_percentage--by--income_groups--year.csv
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['income_3groups', 'year'], 'value': 'population_percentage', 'resource': 'ddf--datapoints--population_percentage--by--income_groups--year'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['income_3groups', 'year'], 'value': 'population_percentage', 'resource': 'ddf--datapoints--population_percentage--by--income_groups--year'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo', 'year'], 'value': 'population_percentage', 'resource': 'ddf--datapoints--population_percentage--by--income_groups--year'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo', 'year'], 'value': 'population_percentage', 'resource': 'ddf--datapoints--population_percentage--by--income_groups--year'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['income_groups', 'year'], 'value': 'population_percentage', 'resource': 'ddf--datapoints--population_percentage--by--income_groups--year'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['income_groups', 'year'], 'value': 'population_percentage', 'resource': 'ddf--datapoints--population_percentage--by--income_groups--year'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo', 'year'], 'value': 'population_percentage', 'resource': 'ddf--datapoints--population_percentage--by--income_groups--year'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo', 'year'], 'value': 'population_percentage', 'resource': 'ddf--datapoints--population_percentage--by--income_groups--year'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['income_groups', 'year'], 'value': 'population_percentage', 'resource': 'ddf--datapoints--population_percentage--by--income_groups--year'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['income_groups', 'year'], 'value': 'population_percentage', 'resource': 'ddf--datapoints--population_percentage--by--income_groups--year'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG working on: ddf--datapoints--population--by--income_groups--year.csv
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['income_3groups', 'year'], 'value': 'population', 'resource': 'ddf--datapoints--population--by--income_groups--year'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['income_3groups', 'year'], 'value': 'population', 'resource': 'ddf--datapoints--population--by--income_groups--year'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo', 'year'], 'value': 'population', 'resource': 'ddf--datapoints--population--by--income_groups--year'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo', 'year'], 'value': 'population', 'resource': 'ddf--datapoints--population--by--income_groups--year'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['income_groups', 'year'], 'value': 'population', 'resource': 'ddf--datapoints--population--by--income_groups--year'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['income_groups', 'year'], 'value': 'population', 'resource': 'ddf--datapoints--population--by--income_groups--year'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo', 'year'], 'value': 'population', 'resource': 'ddf--datapoints--population--by--income_groups--year'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo', 'year'], 'value': 'population', 'resource': 'ddf--datapoints--population--by--income_groups--year'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['income_groups', 'year'], 'value': 'population', 'resource': 'ddf--datapoints--population--by--income_groups--year'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['income_groups', 'year'], 'value': 'population', 'resource': 'ddf--datapoints--population--by--income_groups--year'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG working on: ddf--concepts.csv
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['concept'], 'value': 'color', 'resource': 'ddf--concepts'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['concept'], 'value': 'color', 'resource': 'ddf--concepts'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['concept'], 'value': 'concept_type', 'resource': 'ddf--concepts'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['concept'], 'value': 'concept_type', 'resource': 'ddf--concepts'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['concept'], 'value': 'description', 'resource': 'ddf--concepts'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['concept'], 'value': 'description', 'resource': 'ddf--concepts'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['concept'], 'value': 'domain', 'resource': 'ddf--concepts'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['concept'], 'value': 'domain', 'resource': 'ddf--concepts'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['concept'], 'value': 'drill_up', 'resource': 'ddf--concepts'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['concept'], 'value': 'drill_up', 'resource': 'ddf--concepts'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['concept'], 'value': 'indicator_url', 'resource': 'ddf--concepts'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['concept'], 'value': 'indicator_url', 'resource': 'ddf--concepts'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['concept'], 'value': 'name', 'resource': 'ddf--concepts'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['concept'], 'value': 'name', 'resource': 'ddf--concepts'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['concept'], 'value': 'scales', 'resource': 'ddf--concepts'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['concept'], 'value': 'scales', 'resource': 'ddf--concepts'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['concept'], 'value': 'source_url', 'resource': 'ddf--concepts'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['concept'], 'value': 'source_url', 'resource': 'ddf--concepts'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['concept'], 'value': 'tags', 'resource': 'ddf--concepts'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['concept'], 'value': 'tags', 'resource': 'ddf--concepts'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['concept'], 'value': 'unit', 'resource': 'ddf--concepts'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['concept'], 'value': 'unit', 'resource': 'ddf--concepts'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG working on: ddf--entities--geo--country.csv
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'g77_and_oecd_countries', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'g77_and_oecd_countries', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'income_3groups', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'income_3groups', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'income_groups', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'income_groups', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'is--country', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'is--country', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'iso3166_1_alpha2', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'iso3166_1_alpha2', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'iso3166_1_alpha3', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'iso3166_1_alpha3', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'iso3166_1_numeric', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'iso3166_1_numeric', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'iso3166_2', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'iso3166_2', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'landlocked', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'landlocked', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'latitude', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'latitude', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'longitude', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'longitude', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'main_religion_2008', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'main_religion_2008', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'name', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'name', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'un_state', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'un_state', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'unicef_region', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'unicef_region', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'unicode_region_subtag', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'unicode_region_subtag', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'world_4region', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'world_4region', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'world_6region', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'world_6region', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['country'], 'value': 'g77_and_oecd_countries', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['country'], 'value': 'g77_and_oecd_countries', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['country'], 'value': 'income_3groups', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['country'], 'value': 'income_3groups', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['country'], 'value': 'income_groups', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['country'], 'value': 'income_groups', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['country'], 'value': 'is--country', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['country'], 'value': 'is--country', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['country'], 'value': 'iso3166_1_alpha2', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['country'], 'value': 'iso3166_1_alpha2', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['country'], 'value': 'iso3166_1_alpha3', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['country'], 'value': 'iso3166_1_alpha3', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['country'], 'value': 'iso3166_1_numeric', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['country'], 'value': 'iso3166_1_numeric', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['country'], 'value': 'iso3166_2', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['country'], 'value': 'iso3166_2', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['country'], 'value': 'landlocked', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['country'], 'value': 'landlocked', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['country'], 'value': 'latitude', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['country'], 'value': 'latitude', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['country'], 'value': 'longitude', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['country'], 'value': 'longitude', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['country'], 'value': 'main_religion_2008', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['country'], 'value': 'main_religion_2008', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['country'], 'value': 'name', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['country'], 'value': 'name', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['country'], 'value': 'un_state', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['country'], 'value': 'un_state', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['country'], 'value': 'unicef_region', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['country'], 'value': 'unicef_region', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['country'], 'value': 'unicode_region_subtag', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['country'], 'value': 'unicode_region_subtag', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['country'], 'value': 'world_4region', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['country'], 'value': 'world_4region', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['country'], 'value': 'world_6region', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['country'], 'value': 'world_6region', 'resource': 'ddf--entities--geo--country'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG working on: ddf--entities--geo--global.csv
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'is--global', 'resource': 'ddf--entities--geo--global'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'is--global', 'resource': 'ddf--entities--geo--global'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'latitude', 'resource': 'ddf--entities--geo--global'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'latitude', 'resource': 'ddf--entities--geo--global'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'longitude', 'resource': 'ddf--entities--geo--global'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'longitude', 'resource': 'ddf--entities--geo--global'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'name', 'resource': 'ddf--entities--geo--global'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'name', 'resource': 'ddf--entities--geo--global'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'topojson', 'resource': 'ddf--entities--geo--global'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'topojson', 'resource': 'ddf--entities--geo--global'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'unicode_region_subtag', 'resource': 'ddf--entities--geo--global'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'unicode_region_subtag', 'resource': 'ddf--entities--geo--global'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['global'], 'value': 'is--global', 'resource': 'ddf--entities--geo--global'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['global'], 'value': 'is--global', 'resource': 'ddf--entities--geo--global'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['global'], 'value': 'latitude', 'resource': 'ddf--entities--geo--global'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['global'], 'value': 'latitude', 'resource': 'ddf--entities--geo--global'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['global'], 'value': 'longitude', 'resource': 'ddf--entities--geo--global'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['global'], 'value': 'longitude', 'resource': 'ddf--entities--geo--global'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['global'], 'value': 'name', 'resource': 'ddf--entities--geo--global'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['global'], 'value': 'name', 'resource': 'ddf--entities--geo--global'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['global'], 'value': 'topojson', 'resource': 'ddf--entities--geo--global'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['global'], 'value': 'topojson', 'resource': 'ddf--entities--geo--global'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['global'], 'value': 'unicode_region_subtag', 'resource': 'ddf--entities--geo--global'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['global'], 'value': 'unicode_region_subtag', 'resource': 'ddf--entities--geo--global'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG working on: ddf--entities--geo--world_4region.csv
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['world_4region'], 'value': 'color', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['world_4region'], 'value': 'color', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['world_4region'], 'value': 'description', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['world_4region'], 'value': 'description', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['world_4region'], 'value': 'is--world_4region', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['world_4region'], 'value': 'is--world_4region', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['world_4region'], 'value': 'latitude', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['world_4region'], 'value': 'latitude', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['world_4region'], 'value': 'longitude', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['world_4region'], 'value': 'longitude', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['world_4region'], 'value': 'name', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['world_4region'], 'value': 'name', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['world_4region'], 'value': 'name_long', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['world_4region'], 'value': 'name_long', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['world_4region'], 'value': 'name_short', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['world_4region'], 'value': 'name_short', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['world_4region'], 'value': 'rank', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['world_4region'], 'value': 'rank', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['world_4region'], 'value': 'shape_lores_svg', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['world_4region'], 'value': 'shape_lores_svg', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'color', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'color', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'description', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'description', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'is--world_4region', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'is--world_4region', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'latitude', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'latitude', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'longitude', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'longitude', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'name', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'name', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'name_long', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'name_long', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'name_short', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'name_short', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'rank', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'rank', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'shape_lores_svg', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'shape_lores_svg', 'resource': 'ddf--entities--geo--world_4region'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG working on: ddf--entities--geo--world_6region.csv
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['world_6region'], 'value': 'is--world_6region', 'resource': 'ddf--entities--geo--world_6region'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['world_6region'], 'value': 'is--world_6region', 'resource': 'ddf--entities--geo--world_6region'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['world_6region'], 'value': 'name', 'resource': 'ddf--entities--geo--world_6region'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['world_6region'], 'value': 'name', 'resource': 'ddf--entities--geo--world_6region'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['world_6region'], 'value': 'name_long', 'resource': 'ddf--entities--geo--world_6region'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['world_6region'], 'value': 'name_long', 'resource': 'ddf--entities--geo--world_6region'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['world_6region'], 'value': 'name_short', 'resource': 'ddf--entities--geo--world_6region'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['world_6region'], 'value': 'name_short', 'resource': 'ddf--entities--geo--world_6region'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['world_6region'], 'value': 'rank', 'resource': 'ddf--entities--geo--world_6region'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['world_6region'], 'value': 'rank', 'resource': 'ddf--entities--geo--world_6region'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['world_6region'], 'value': 'shape_lores_svg', 'resource': 'ddf--entities--geo--world_6region'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['world_6region'], 'value': 'shape_lores_svg', 'resource': 'ddf--entities--geo--world_6region'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'is--world_6region', 'resource': 'ddf--entities--geo--world_6region'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'is--world_6region', 'resource': 'ddf--entities--geo--world_6region'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'name', 'resource': 'ddf--entities--geo--world_6region'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'name', 'resource': 'ddf--entities--geo--world_6region'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'name_long', 'resource': 'ddf--entities--geo--world_6region'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'name_long', 'resource': 'ddf--entities--geo--world_6region'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'name_short', 'resource': 'ddf--entities--geo--world_6region'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'name_short', 'resource': 'ddf--entities--geo--world_6region'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'rank', 'resource': 'ddf--entities--geo--world_6region'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'rank', 'resource': 'ddf--entities--geo--world_6region'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'shape_lores_svg', 'resource': 'ddf--entities--geo--world_6region'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'shape_lores_svg', 'resource': 'ddf--entities--geo--world_6region'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG working on: ddf--entities--geo--income_groups.csv
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'is--income_groups', 'resource': 'ddf--entities--geo--income_groups'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'is--income_groups', 'resource': 'ddf--entities--geo--income_groups'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'name', 'resource': 'ddf--entities--geo--income_groups'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'name', 'resource': 'ddf--entities--geo--income_groups'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'rank', 'resource': 'ddf--entities--geo--income_groups'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'rank', 'resource': 'ddf--entities--geo--income_groups'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['income_groups'], 'value': 'is--income_groups', 'resource': 'ddf--entities--geo--income_groups'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['income_groups'], 'value': 'is--income_groups', 'resource': 'ddf--entities--geo--income_groups'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['income_groups'], 'value': 'name', 'resource': 'ddf--entities--geo--income_groups'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['income_groups'], 'value': 'name', 'resource': 'ddf--entities--geo--income_groups'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['income_groups'], 'value': 'rank', 'resource': 'ddf--entities--geo--income_groups'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['income_groups'], 'value': 'rank', 'resource': 'ddf--entities--geo--income_groups'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['income_3groups'], 'value': 'is--income_groups', 'resource': 'ddf--entities--geo--income_groups'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['income_3groups'], 'value': 'is--income_groups', 'resource': 'ddf--entities--geo--income_groups'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['income_3groups'], 'value': 'name', 'resource': 'ddf--entities--geo--income_groups'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['income_3groups'], 'value': 'name', 'resource': 'ddf--entities--geo--income_groups'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['income_3groups'], 'value': 'rank', 'resource': 'ddf--entities--geo--income_groups'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['income_3groups'], 'value': 'rank', 'resource': 'ddf--entities--geo--income_groups'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'is--income_groups', 'resource': 'ddf--entities--geo--income_groups'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'is--income_groups', 'resource': 'ddf--entities--geo--income_groups'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'name', 'resource': 'ddf--entities--geo--income_groups'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'name', 'resource': 'ddf--entities--geo--income_groups'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'rank', 'resource': 'ddf--entities--geo--income_groups'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'rank', 'resource': 'ddf--entities--geo--income_groups'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['income_groups'], 'value': 'is--income_groups', 'resource': 'ddf--entities--geo--income_groups'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['income_groups'], 'value': 'is--income_groups', 'resource': 'ddf--entities--geo--income_groups'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['income_groups'], 'value': 'name', 'resource': 'ddf--entities--geo--income_groups'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['income_groups'], 'value': 'name', 'resource': 'ddf--entities--geo--income_groups'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['income_groups'], 'value': 'rank', 'resource': 'ddf--entities--geo--income_groups'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['income_groups'], 'value': 'rank', 'resource': 'ddf--entities--geo--income_groups'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG working on: ddf--entities--geo--main_religion_2008.csv
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'is--main_religion_2008', 'resource': 'ddf--entities--geo--main_religion_2008'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'is--main_religion_2008', 'resource': 'ddf--entities--geo--main_religion_2008'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'name', 'resource': 'ddf--entities--geo--main_religion_2008'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'name', 'resource': 'ddf--entities--geo--main_religion_2008'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'rank', 'resource': 'ddf--entities--geo--main_religion_2008'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'rank', 'resource': 'ddf--entities--geo--main_religion_2008'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['main_religion_2008'], 'value': 'is--main_religion_2008', 'resource': 'ddf--entities--geo--main_religion_2008'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['main_religion_2008'], 'value': 'is--main_religion_2008', 'resource': 'ddf--entities--geo--main_religion_2008'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['main_religion_2008'], 'value': 'name', 'resource': 'ddf--entities--geo--main_religion_2008'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['main_religion_2008'], 'value': 'name', 'resource': 'ddf--entities--geo--main_religion_2008'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['main_religion_2008'], 'value': 'rank', 'resource': 'ddf--entities--geo--main_religion_2008'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['main_religion_2008'], 'value': 'rank', 'resource': 'ddf--entities--geo--main_religion_2008'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG working on: ddf--entities--geo--g77_and_oecd_countries.csv
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['g77_and_oecd_countries'], 'value': 'is--g77_and_oecd_countries', 'resource': 'ddf--entities--geo--g77_and_oecd_countries'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['g77_and_oecd_countries'], 'value': 'is--g77_and_oecd_countries', 'resource': 'ddf--entities--geo--g77_and_oecd_countries'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['g77_and_oecd_countries'], 'value': 'name', 'resource': 'ddf--entities--geo--g77_and_oecd_countries'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['g77_and_oecd_countries'], 'value': 'name', 'resource': 'ddf--entities--geo--g77_and_oecd_countries'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['g77_and_oecd_countries'], 'value': 'rank', 'resource': 'ddf--entities--geo--g77_and_oecd_countries'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['g77_and_oecd_countries'], 'value': 'rank', 'resource': 'ddf--entities--geo--g77_and_oecd_countries'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'is--g77_and_oecd_countries', 'resource': 'ddf--entities--geo--g77_and_oecd_countries'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'is--g77_and_oecd_countries', 'resource': 'ddf--entities--geo--g77_and_oecd_countries'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'name', 'resource': 'ddf--entities--geo--g77_and_oecd_countries'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'name', 'resource': 'ddf--entities--geo--g77_and_oecd_countries'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'rank', 'resource': 'ddf--entities--geo--g77_and_oecd_countries'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'rank', 'resource': 'ddf--entities--geo--g77_and_oecd_countries'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG working on: ddf--entities--geo--unicef_region.csv
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['unicef_region'], 'value': 'is--unicef_region', 'resource': 'ddf--entities--geo--unicef_region'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['unicef_region'], 'value': 'is--unicef_region', 'resource': 'ddf--entities--geo--unicef_region'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['unicef_region'], 'value': 'name', 'resource': 'ddf--entities--geo--unicef_region'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['unicef_region'], 'value': 'name', 'resource': 'ddf--entities--geo--unicef_region'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'is--unicef_region', 'resource': 'ddf--entities--geo--unicef_region'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'is--unicef_region', 'resource': 'ddf--entities--geo--unicef_region'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'name', 'resource': 'ddf--entities--geo--unicef_region'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'name', 'resource': 'ddf--entities--geo--unicef_region'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG working on: ddf--entities--geo--income_3groups.csv
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['income_3groups'], 'value': 'is--income_3groups', 'resource': 'ddf--entities--geo--income_3groups'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['income_3groups'], 'value': 'is--income_3groups', 'resource': 'ddf--entities--geo--income_3groups'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['income_3groups'], 'value': 'name', 'resource': 'ddf--entities--geo--income_3groups'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['income_3groups'], 'value': 'name', 'resource': 'ddf--entities--geo--income_3groups'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['income_3groups'], 'value': 'rank', 'resource': 'ddf--entities--geo--income_3groups'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['income_3groups'], 'value': 'rank', 'resource': 'ddf--entities--geo--income_3groups'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'is--income_3groups', 'resource': 'ddf--entities--geo--income_3groups'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'is--income_3groups', 'resource': 'ddf--entities--geo--income_3groups'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'name', 'resource': 'ddf--entities--geo--income_3groups'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'name', 'resource': 'ddf--entities--geo--income_3groups'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'rank', 'resource': 'ddf--entities--geo--income_3groups'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'rank', 'resource': 'ddf--entities--geo--income_3groups'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['income_3groups'], 'value': 'is--income_3groups', 'resource': 'ddf--entities--geo--income_3groups'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['income_3groups'], 'value': 'is--income_3groups', 'resource': 'ddf--entities--geo--income_3groups'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['income_3groups'], 'value': 'name', 'resource': 'ddf--entities--geo--income_3groups'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['income_3groups'], 'value': 'name', 'resource': 'ddf--entities--geo--income_3groups'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['income_3groups'], 'value': 'rank', 'resource': 'ddf--entities--geo--income_3groups'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['income_3groups'], 'value': 'rank', 'resource': 'ddf--entities--geo--income_3groups'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'is--income_3groups', 'resource': 'ddf--entities--geo--income_3groups'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'is--income_3groups', 'resource': 'ddf--entities--geo--income_3groups'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'name', 'resource': 'ddf--entities--geo--income_3groups'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'name', 'resource': 'ddf--entities--geo--income_3groups'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'rank', 'resource': 'ddf--entities--geo--income_3groups'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'rank', 'resource': 'ddf--entities--geo--income_3groups'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['income_groups'], 'value': 'is--income_3groups', 'resource': 'ddf--entities--geo--income_3groups'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['income_groups'], 'value': 'is--income_3groups', 'resource': 'ddf--entities--geo--income_3groups'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['income_groups'], 'value': 'name', 'resource': 'ddf--entities--geo--income_3groups'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['income_groups'], 'value': 'name', 'resource': 'ddf--entities--geo--income_3groups'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['income_groups'], 'value': 'rank', 'resource': 'ddf--entities--geo--income_3groups'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['income_groups'], 'value': 'rank', 'resource': 'ddf--entities--geo--income_3groups'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG working on: ddf--entities--geo--landlocked.csv
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['landlocked'], 'value': 'is--landlocked', 'resource': 'ddf--entities--geo--landlocked'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['landlocked'], 'value': 'is--landlocked', 'resource': 'ddf--entities--geo--landlocked'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['landlocked'], 'value': 'name', 'resource': 'ddf--entities--geo--landlocked'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['landlocked'], 'value': 'name', 'resource': 'ddf--entities--geo--landlocked'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['landlocked'], 'value': 'rank', 'resource': 'ddf--entities--geo--landlocked'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['landlocked'], 'value': 'rank', 'resource': 'ddf--entities--geo--landlocked'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'is--landlocked', 'resource': 'ddf--entities--geo--landlocked'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'is--landlocked', 'resource': 'ddf--entities--geo--landlocked'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'name', 'resource': 'ddf--entities--geo--landlocked'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'name', 'resource': 'ddf--entities--geo--landlocked'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'rank', 'resource': 'ddf--entities--geo--landlocked'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'rank', 'resource': 'ddf--entities--geo--landlocked'}
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG working on: ddf--entities--geo.csv
+2020-06-04 11:37:57 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'iso3166_1_alpha2', 'resource': 'ddf--entities--geo'}
+2020-06-04 11:37:57 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'iso3166_1_alpha2', 'resource': 'ddf--entities--geo'}
+2020-06-04 11:37:58 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'iso3166_1_alpha3', 'resource': 'ddf--entities--geo'}
+2020-06-04 11:37:58 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'iso3166_1_alpha3', 'resource': 'ddf--entities--geo'}
+2020-06-04 11:37:58 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'iso3166_1_numeric', 'resource': 'ddf--entities--geo'}
+2020-06-04 11:37:58 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'iso3166_1_numeric', 'resource': 'ddf--entities--geo'}
+2020-06-04 11:37:58 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'landlocked', 'resource': 'ddf--entities--geo'}
+2020-06-04 11:37:58 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'landlocked', 'resource': 'ddf--entities--geo'}
+2020-06-04 11:37:58 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'latitude', 'resource': 'ddf--entities--geo'}
+2020-06-04 11:37:58 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'latitude', 'resource': 'ddf--entities--geo'}
+2020-06-04 11:37:58 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'longitude', 'resource': 'ddf--entities--geo'}
+2020-06-04 11:37:58 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'longitude', 'resource': 'ddf--entities--geo'}
+2020-06-04 11:37:58 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'main_religion_2008', 'resource': 'ddf--entities--geo'}
+2020-06-04 11:37:58 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'main_religion_2008', 'resource': 'ddf--entities--geo'}
+2020-06-04 11:37:58 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'name', 'resource': 'ddf--entities--geo'}
+2020-06-04 11:37:58 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'name', 'resource': 'ddf--entities--geo'}
+2020-06-04 11:37:58 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'un_state', 'resource': 'ddf--entities--geo'}
+2020-06-04 11:37:58 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'un_state', 'resource': 'ddf--entities--geo'}
+2020-06-04 11:37:58 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'unicode_region_subtag', 'resource': 'ddf--entities--geo'}
+2020-06-04 11:37:58 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'unicode_region_subtag', 'resource': 'ddf--entities--geo'}
+2020-06-04 11:37:58 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'world_4region', 'resource': 'ddf--entities--geo'}
+2020-06-04 11:37:58 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'world_4region', 'resource': 'ddf--entities--geo'}
+2020-06-04 11:37:58 ddf_utils.model.package DEBUG yielding: {'primaryKey': ['geo'], 'value': 'world_6region', 'resource': 'ddf--entities--geo'}
+2020-06-04 11:37:58 root DEBUG adding kvo {'primaryKey': ['geo'], 'value': 'world_6region', 'resource': 'ddf--entities--geo'}
+Done.
