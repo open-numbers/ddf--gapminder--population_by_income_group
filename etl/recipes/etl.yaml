@@ -1,13 +1,11 @@
 # world population by income groups
 #
-# Based on population data from Gapminder and
-# income group data from World Bank.
+# Based on population data and income group data from World Bank.
 
 info:
     id: population by income groups
     base:
         - &ontology open-numbers/ddf--open_numbers
-        - &population open-numbers/ddf--gapminder--population
         - &wb open-numbers/ddf--world_bank--world_development_indicators
 
 config:
@@ -36,15 +34,10 @@ ingredients:
       value:
           - income_4level
     - id: population-datapoints
-      dataset: *population
-      key: country, year
+      dataset: *wb
+      key: economy, year
       value:
-          - population
-    - id: global-population-datapoints
-      dataset: *population
-      key: global, year
-      value:
-          - population
+          - sp_pop_totl
     - id: indicator-concepts
       key: concept
       data:
@@ -66,57 +59,80 @@ ingredients:
 
 cooking:
     datapoints:
-        - procedure: translate_column
-          ingredients:
-              - wb-countries
-          options:
-              column: name
-              target_column: country_on
-              dictionary:
-                  base: geo-synonyms
-                  key: synonym
-                  value: geo
-          result: wb-countries-translated
-        - procedure: translate_column
-          ingredients:
-              - wb-income-group-datapoints
-          options:
-              dictionary:
-                  base: wb-countries-translated
-                  key: country
-                  value: country_on
-              column: economy
-          result: wb-income-group-datapoints-translated
-        - procedure: custom_procedure.translate_column_over_time
+        # seperate country datapoints and global datapoints
+        - procedure: filter
           ingredients:
               - population-datapoints
           options:
+              row:
+                  economy: wld
+          result: population-datapoints-economy-wld
+
+        - procedure: filter
+          ingredients:
+              - population-datapoints
+          options:
+              row:
+                  economy:
+                      $ne: wld
+          result: population-datapoints-economy-other
+
+        # backfill income group history to 1987
+        - procedure: custom_procedure.backfill
+          ingredients:
+              - wb-income-group-datapoints
+          options:
+              series_key: economy
+              index_column: year
+              # till: 1987
+              debug: true
+          result: wb-income-group-datapoints-backfilled
+
+        # translate countries to income groups
+        - procedure: custom_procedure.translate_column_over_time
+          ingredients:
+              - population-datapoints-economy-other
+          options:
               dictionary:
-                  base: wb-income-group-datapoints-translated
+                  base: wb-income-group-datapoints-backfilled
                   key: economy
                   value: income_4level
-              column: country
+              column: economy
               time_column: year
           result: population-datapoints-translated
-
         - procedure: groupby
           ingredients:
               - population-datapoints-translated
           options:
               groupby:
-                  - country
+                  - economy
                   - year
               aggregate:
-                  population: sum
+                  sp_pop_totl: sum
           result: population-datapoints-by-income-group
 
+        # calculate the percentage indicator
+        - procedure: custom_procedure.population_percentage
+          ingredients:
+              - population-datapoints-by-income-group
+          options:
+              population_indicator: sp_pop_totl
+              world_population:
+                  base: population-datapoints-economy-wld
+                  indicator: sp_pop_totl
+              align_column: year
+              group_column: economy
+              new_indicator_name: population_total_percent
+          result: population-percentage-datapoints
+
+        # change to open-numbers name space
         - procedure: translate_header
           ingredients:
               - population-datapoints-by-income-group
           options:
               dictionary:
-                  country: income_groups
-
+                  economy: income_groups
+                  sp_pop_totl: population_total
           result: population-datapoints-by-income-group-headers-translated
 
         - procedure: translate_column
@@ -129,31 +145,27 @@ cooking:
                   lic: low_income
                   lmc: lower_middle_income
                   umc: upper_middle_income
-          result: population-datapoints-final-0
-
-        - procedure: custom_procedure.population_percentage
-          ingredients:
-              - population-datapoints-final-0
-          options:
-              world_population: global-population-datapoints
-              align_column: year
-          result: population-percentage-datapoints-final-0
-
-        - procedure: translate_header
-          ingredients:
-              - population-percentage-datapoints-final-0
-          options:
-              dictionary:
-                  population_percentage: population_total_percent
-          result: population-percentage-datapoints-final
-
-        - procedure: translate_header
-          ingredients:
-              - population-datapoints-final-0
-          options:
-              dictionary:
-                  population: population_total
           result: population-datapoints-final
+
+        - procedure: translate_header
+          ingredients:
+              - population-percentage-datapoints
+          options:
+              dictionary:
+                  economy: income_groups
+          result: population-percentage-datapoints-by-income-group-headers-translated
+
+        - procedure: translate_column
+          ingredients:
+              - population-percentage-datapoints-by-income-group-headers-translated
+          options:
+              column: income_groups
+              dictionary:
+                  hic: high_income
+                  lic: low_income
+                  lmc: lower_middle_income
+                  umc: upper_middle_income
+          result: population-percentage-datapoints-final
 
         - procedure: serve
           ingredients:
