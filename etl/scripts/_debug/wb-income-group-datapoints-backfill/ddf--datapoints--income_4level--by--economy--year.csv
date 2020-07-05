@@ -31,6 +31,7 @@ abw,2015,hic
 abw,2016,hic
 abw,2017,hic
 abw,2018,hic
+abw,2019,hic
 afg,1987,lic
 afg,1988,lic
 afg,1989,lic
@@ -63,6 +64,7 @@ afg,2015,lic
 afg,2016,lic
 afg,2017,lic
 afg,2018,lic
+afg,2019,lic
 ago,1987,lmc
 ago,1988,lmc
 ago,1989,lmc
@@ -95,6 +97,7 @@ ago,2015,umc
 ago,2016,lmc
 ago,2017,lmc
 ago,2018,lmc
+ago,2019,lmc
 alb,1987,lmc
 alb,1988,lmc
 alb,1989,lmc
@@ -127,6 +130,7 @@ alb,2015,umc
 alb,2016,umc
 alb,2017,umc
 alb,2018,umc
+alb,2019,umc
 and,1987,hic
 and,1988,hic
 and,1989,hic
@@ -159,6 +163,7 @@ and,2015,hic
 and,2016,hic
 and,2017,hic
 and,2018,hic
+and,2019,hic
 ant,1987,umc
 ant,1988,umc
 ant,1989,umc
@@ -214,6 +219,7 @@ are,2015,hic
 are,2016,hic
 are,2017,hic
 are,2018,hic
+are,2019,hic
 arg,1987,umc
 arg,1988,umc
 arg,1989,lmc
@@ -246,6 +252,7 @@ arg,2015,umc
 arg,2016,umc
 arg,2017,hic
 arg,2018,umc
+arg,2019,umc
 arm,1987,lmc
 arm,1988,lmc
 arm,1989,lmc
@@ -278,6 +285,7 @@ arm,2015,lmc
 arm,2016,lmc
 arm,2017,umc
 arm,2018,umc
+arm,2019,umc
 asm,1987,hic
 asm,1988,hic
 asm,1989,hic
@@ -310,6 +318,7 @@ asm,2015,umc
 asm,2016,umc
 asm,2017,umc
 asm,2018,umc
+asm,2019,umc
 atg,1987,umc
 atg,1988,umc
 atg,1989,umc
@@ -342,6 +351,7 @@ atg,2015,hic
 atg,2016,hic
 atg,2017,hic
 atg,2018,hic
+atg,2019,hic
 aus,1987,hic
 aus,1988,hic
 aus,1989,hic
@@ -374,6 +384,7 @@ aus,2015,hic
 aus,2016,hic
 aus,2017,hic
 aus,2018,hic
+aus,2019,hic
 aut,1987,hic
 aut,1988,hic
 aut,1989,hic
@@ -406,6 +417,7 @@ aut,2015,hic
 aut,2016,hic
 aut,2017,hic
 aut,2018,hic
+aut,2019,hic
 aze,1987,lmc
 aze,1988,lmc
 aze,1989,lmc
@@ -438,6 +450,7 @@ aze,2015,umc
 aze,2016,umc
 aze,2017,umc
 aze,2018,umc
+aze,2019,umc
 bdi,1987,lic
 bdi,1988,lic
 bdi,1989,lic
@@ -470,6 +483,7 @@ bdi,2015,lic
 bdi,2016,lic
 bdi,2017,lic
 bdi,2018,lic
+bdi,2019,lic
 bel,1987,hic
 bel,1988,hic
 bel,1989,hic
@@ -502,6 +516,7 @@ bel,2015,hic
 bel,2016,hic
 bel,2017,hic
 bel,2018,hic
+bel,2019,hic
 ben,1987,lic
 ben,1988,lic
 ben,1989,lic
@@ -534,6 +549,7 @@ ben,2015,lic
 ben,2016,lic
 ben,2017,lic
 ben,2018,lic
+ben,2019,lmc
 bfa,1987,lic
 bfa,1988,lic
 bfa,1989,lic
@@ -566,6 +582,7 @@ bfa,2015,lic
 bfa,2016,lic
 bfa,2017,lic
 bfa,2018,lic
+bfa,2019,lic
 bgd,1987,lic
 bgd,1988,lic
 bgd,1989,lic
@@ -598,6 +615,7 @@ bgd,2015,lmc
 bgd,2016,lmc
 bgd,2017,lmc
 bgd,2018,lmc
+bgd,2019,lmc
 bgr,1987,lmc
 bgr,1988,lmc
 bgr,1989,lmc
@@ -630,6 +648,7 @@ bgr,2015,umc
 bgr,2016,umc
 bgr,2017,umc
 bgr,2018,umc
+bgr,2019,umc
 bhr,1987,hic
 bhr,1988,hic
 bhr,1989,hic
@@ -662,6 +681,7 @@ bhr,2015,hic
 bhr,2016,hic
 bhr,2017,hic
 bhr,2018,hic
+bhr,2019,hic
 bhs,1987,hic
 bhs,1988,hic
 bhs,1989,hic
@@ -694,6 +714,7 @@ bhs,2015,hic
 bhs,2016,hic
 bhs,2017,hic
 bhs,2018,hic
+bhs,2019,hic
 bih,1987,lmc
 bih,1988,lmc
 bih,1989,lmc
@@ -726,6 +747,7 @@ bih,2015,umc
 bih,2016,umc
 bih,2017,umc
 bih,2018,umc
+bih,2019,umc
 blr,1987,umc
 blr,1988,umc
 blr,1989,umc
@@ -758,6 +780,7 @@ blr,2015,umc
 blr,2016,umc
 blr,2017,umc
 blr,2018,umc
+blr,2019,umc
 blz,1987,lmc
 blz,1988,lmc
 blz,1989,lmc
@@ -790,6 +813,7 @@ blz,2015,umc
 blz,2016,umc
 blz,2017,umc
 blz,2018,umc
+blz,2019,umc
 bmu,1987,hic
 bmu,1988,hic
 bmu,1989,hic
@@ -822,6 +846,7 @@ bmu,2015,hic
 bmu,2016,hic
 bmu,2017,hic
 bmu,2018,hic
+bmu,2019,hic
 bol,1987,lmc
 bol,1988,lmc
 bol,1989,lmc
@@ -854,6 +879,7 @@ bol,2015,lmc
 bol,2016,lmc
 bol,2017,lmc
 bol,2018,lmc
+bol,2019,lmc
 bra,1987,umc
 bra,1988,lmc
 bra,1989,umc
@@ -886,6 +912,7 @@ bra,2015,umc
 bra,2016,umc
 bra,2017,umc
 bra,2018,umc
+bra,2019,umc
 brb,1987,umc
 brb,1988,umc
 brb,1989,hic
@@ -918,6 +945,7 @@ brb,2015,hic
 brb,2016,hic
 brb,2017,hic
 brb,2018,hic
+brb,2019,hic
 brn,1987,hic
 brn,1988,hic
 brn,1989,hic
@@ -950,6 +978,7 @@ brn,2015,hic
 brn,2016,hic
 brn,2017,hic
 brn,2018,hic
+brn,2019,hic
 btn,1987,lic
 btn,1988,lic
 btn,1989,lic
@@ -982,6 +1011,7 @@ btn,2015,lmc
 btn,2016,lmc
 btn,2017,lmc
 btn,2018,lmc
+btn,2019,lmc
 bwa,1987,lmc
 bwa,1988,lmc
 bwa,1989,lmc
@@ -1014,6 +1044,7 @@ bwa,2015,umc
 bwa,2016,umc
 bwa,2017,umc
 bwa,2018,umc
+bwa,2019,umc
 caf,1987,lic
 caf,1988,lic
 caf,1989,lic
@@ -1046,6 +1077,7 @@ caf,2015,lic
 caf,2016,lic
 caf,2017,lic
 caf,2018,lic
+caf,2019,lic
 can,1987,hic
 can,1988,hic
 can,1989,hic
@@ -1078,6 +1110,7 @@ can,2015,hic
 can,2016,hic
 can,2017,hic
 can,2018,hic
+can,2019,hic
 che,1987,hic
 che,1988,hic
 che,1989,hic
@@ -1110,6 +1143,7 @@ che,2015,hic
 che,2016,hic
 che,2017,hic
 che,2018,hic
+che,2019,hic
 chi,1987,hic
 chi,1988,hic
 chi,1989,hic
@@ -1142,6 +1176,7 @@ chi,2015,hic
 chi,2016,hic
 chi,2017,hic
 chi,2018,hic
+chi,2019,hic
 chl,1987,lmc
 chl,1988,lmc
 chl,1989,lmc
@@ -1174,6 +1209,7 @@ chl,2015,hic
 chl,2016,hic
 chl,2017,hic
 chl,2018,hic
+chl,2019,hic
 chn,1987,lic
 chn,1988,lic
 chn,1989,lic
@@ -1206,6 +1242,7 @@ chn,2015,umc
 chn,2016,umc
 chn,2017,umc
 chn,2018,umc
+chn,2019,umc
 civ,1987,lmc
 civ,1988,lmc
 civ,1989,lmc
@@ -1238,6 +1275,7 @@ civ,2015,lmc
 civ,2016,lmc
 civ,2017,lmc
 civ,2018,lmc
+civ,2019,lmc
 cmr,1987,lmc
 cmr,1988,lmc
 cmr,1989,lmc
@@ -1270,6 +1308,7 @@ cmr,2015,lmc
 cmr,2016,lmc
 cmr,2017,lmc
 cmr,2018,lmc
+cmr,2019,lmc
 cod,1987,lic
 cod,1988,lic
 cod,1989,lic
@@ -1302,6 +1341,7 @@ cod,2015,lic
 cod,2016,lic
 cod,2017,lic
 cod,2018,lic
+cod,2019,lic
 cog,1987,lmc
 cog,1988,lmc
 cog,1989,lmc
@@ -1334,6 +1374,7 @@ cog,2015,lmc
 cog,2016,lmc
 cog,2017,lmc
 cog,2018,lmc
+cog,2019,lmc
 col,1987,lmc
 col,1988,lmc
 col,1989,lmc
@@ -1366,6 +1407,7 @@ col,2015,umc
 col,2016,umc
 col,2017,umc
 col,2018,umc
+col,2019,umc
 com,1987,lic
 com,1988,lic
 com,1989,lic
@@ -1398,6 +1440,7 @@ com,2015,lic
 com,2016,lic
 com,2017,lic
 com,2018,lmc
+com,2019,lmc
 cpv,1987,lmc
 cpv,1988,lmc
 cpv,1989,lmc
@@ -1430,6 +1473,7 @@ cpv,2015,lmc
 cpv,2016,lmc
 cpv,2017,lmc
 cpv,2018,lmc
+cpv,2019,lmc
 cri,1987,lmc
 cri,1988,lmc
 cri,1989,lmc
@@ -1462,6 +1506,7 @@ cri,2015,umc
 cri,2016,umc
 cri,2017,umc
 cri,2018,umc
+cri,2019,umc
 csk,1987,umc
 csk,1988,umc
 csk,1989,umc
@@ -1499,6 +1544,7 @@ cub,2015,umc
 cub,2016,umc
 cub,2017,umc
 cub,2018,umc
+cub,2019,umc
 cuw,1987,hic
 cuw,1988,hic
 cuw,1989,hic
@@ -1531,6 +1577,7 @@ cuw,2015,hic
 cuw,2016,hic
 cuw,2017,hic
 cuw,2018,hic
+cuw,2019,hic
 cym,1987,hic
 cym,1988,hic
 cym,1989,hic
@@ -1563,6 +1610,7 @@ cym,2015,hic
 cym,2016,hic
 cym,2017,hic
 cym,2018,hic
+cym,2019,hic
 cyp,1987,umc
 cyp,1988,hic
 cyp,1989,hic
@@ -1595,6 +1643,7 @@ cyp,2015,hic
 cyp,2016,hic
 cyp,2017,hic
 cyp,2018,hic
+cyp,2019,hic
 cze,1987,lmc
 cze,1988,lmc
 cze,1989,lmc
@@ -1627,6 +1676,7 @@ cze,2015,hic
 cze,2016,hic
 cze,2017,hic
 cze,2018,hic
+cze,2019,hic
 deu,1987,hic
 deu,1988,hic
 deu,1989,hic
@@ -1659,6 +1709,7 @@ deu,2015,hic
 deu,2016,hic
 deu,2017,hic
 deu,2018,hic
+deu,2019,hic
 dji,1987,lmc
 dji,1988,lmc
 dji,1989,lmc
@@ -1691,6 +1742,7 @@ dji,2015,lmc
 dji,2016,lmc
 dji,2017,lmc
 dji,2018,lmc
+dji,2019,lmc
 dma,1987,lmc
 dma,1988,lmc
 dma,1989,lmc
@@ -1723,6 +1775,7 @@ dma,2015,umc
 dma,2016,umc
 dma,2017,umc
 dma,2018,umc
+dma,2019,umc
 dnk,1987,hic
 dnk,1988,hic
 dnk,1989,hic
@@ -1755,6 +1808,7 @@ dnk,2015,hic
 dnk,2016,hic
 dnk,2017,hic
 dnk,2018,hic
+dnk,2019,hic
 dom,1987,lmc
 dom,1988,lmc
 dom,1989,lmc
@@ -1787,6 +1841,7 @@ dom,2015,umc
 dom,2016,umc
 dom,2017,umc
 dom,2018,umc
+dom,2019,umc
 dza,1987,umc
 dza,1988,umc
 dza,1989,lmc
@@ -1819,6 +1874,7 @@ dza,2015,umc
 dza,2016,umc
 dza,2017,umc
 dza,2018,umc
+dza,2019,lmc
 ecu,1987,lmc
 ecu,1988,lmc
 ecu,1989,lmc
@@ -1851,6 +1907,7 @@ ecu,2015,umc
 ecu,2016,umc
 ecu,2017,umc
 ecu,2018,umc
+ecu,2019,umc
 egy,1987,lmc
 egy,1988,lmc
 egy,1989,lmc
@@ -1883,6 +1940,7 @@ egy,2015,lmc
 egy,2016,lmc
 egy,2017,lmc
 egy,2018,lmc
+egy,2019,lmc
 eri,1987,lic
 eri,1988,lic
 eri,1989,lic
@@ -1915,6 +1973,7 @@ eri,2015,lic
 eri,2016,lic
 eri,2017,lic
 eri,2018,lic
+eri,2019,lic
 esp,1987,hic
 esp,1988,hic
 esp,1989,hic
@@ -1947,6 +2006,7 @@ esp,2015,hic
 esp,2016,hic
 esp,2017,hic
 esp,2018,hic
+esp,2019,hic
 est,1987,umc
 est,1988,umc
 est,1989,umc
@@ -1979,6 +2039,7 @@ est,2015,hic
 est,2016,hic
 est,2017,hic
 est,2018,hic
+est,2019,hic
 eth,1987,lic
 eth,1988,lic
 eth,1989,lic
@@ -2011,6 +2072,7 @@ eth,2015,lic
 eth,2016,lic
 eth,2017,lic
 eth,2018,lic
+eth,2019,lic
 fin,1987,hic
 fin,1988,hic
 fin,1989,hic
@@ -2043,6 +2105,7 @@ fin,2015,hic
 fin,2016,hic
 fin,2017,hic
 fin,2018,hic
+fin,2019,hic
 fji,1987,lmc
 fji,1988,lmc
 fji,1989,lmc
@@ -2075,6 +2138,7 @@ fji,2015,umc
 fji,2016,umc
 fji,2017,umc
 fji,2018,umc
+fji,2019,umc
 fra,1987,hic
 fra,1988,hic
 fra,1989,hic
@@ -2107,6 +2171,7 @@ fra,2015,hic
 fra,2016,hic
 fra,2017,hic
 fra,2018,hic
+fra,2019,hic
 fro,1987,hic
 fro,1988,hic
 fro,1989,hic
@@ -2139,6 +2204,7 @@ fro,2015,hic
 fro,2016,hic
 fro,2017,hic
 fro,2018,hic
+fro,2019,hic
 fsm,1987,lmc
 fsm,1988,lmc
 fsm,1989,lmc
@@ -2171,6 +2237,7 @@ fsm,2015,lmc
 fsm,2016,lmc
 fsm,2017,lmc
 fsm,2018,lmc
+fsm,2019,lmc
 gab,1987,umc
 gab,1988,umc
 gab,1989,umc
@@ -2203,6 +2270,7 @@ gab,2015,umc
 gab,2016,umc
 gab,2017,umc
 gab,2018,umc
+gab,2019,umc
 gbr,1987,hic
 gbr,1988,hic
 gbr,1989,hic
@@ -2235,6 +2303,7 @@ gbr,2015,hic
 gbr,2016,hic
 gbr,2017,hic
 gbr,2018,hic
+gbr,2019,hic
 geo,1987,lmc
 geo,1988,lmc
 geo,1989,lmc
@@ -2267,6 +2336,7 @@ geo,2015,umc
 geo,2016,lmc
 geo,2017,lmc
 geo,2018,umc
+geo,2019,umc
 gha,1987,lic
 gha,1988,lic
 gha,1989,lic
@@ -2299,6 +2369,7 @@ gha,2015,lmc
 gha,2016,lmc
 gha,2017,lmc
 gha,2018,lmc
+gha,2019,lmc
 gib,1987,umc
 gib,1988,umc
 gib,1989,umc
@@ -2331,6 +2402,7 @@ gib,2015,hic
 gib,2016,hic
 gib,2017,hic
 gib,2018,hic
+gib,2019,hic
 gin,1987,lic
 gin,1988,lic
 gin,1989,lic
@@ -2363,6 +2435,7 @@ gin,2015,lic
 gin,2016,lic
 gin,2017,lic
 gin,2018,lic
+gin,2019,lic
 gmb,1987,lic
 gmb,1988,lic
 gmb,1989,lic
@@ -2395,6 +2468,7 @@ gmb,2015,lic
 gmb,2016,lic
 gmb,2017,lic
 gmb,2018,lic
+gmb,2019,lic
 gnb,1987,lic
 gnb,1988,lic
 gnb,1989,lic
@@ -2427,6 +2501,7 @@ gnb,2015,lic
 gnb,2016,lic
 gnb,2017,lic
 gnb,2018,lic
+gnb,2019,lic
 gnq,1987,lic
 gnq,1988,lic
 gnq,1989,lic
@@ -2459,6 +2534,7 @@ gnq,2015,umc
 gnq,2016,umc
 gnq,2017,umc
 gnq,2018,umc
+gnq,2019,umc
 grc,1987,umc
 grc,1988,umc
 grc,1989,umc
@@ -2491,6 +2567,7 @@ grc,2015,hic
 grc,2016,hic
 grc,2017,hic
 grc,2018,hic
+grc,2019,hic
 grd,1987,lmc
 grd,1988,lmc
 grd,1989,lmc
@@ -2523,6 +2600,7 @@ grd,2015,umc
 grd,2016,umc
 grd,2017,umc
 grd,2018,umc
+grd,2019,umc
 grl,1987,hic
 grl,1988,hic
 grl,1989,hic
@@ -2555,6 +2633,7 @@ grl,2015,hic
 grl,2016,hic
 grl,2017,hic
 grl,2018,hic
+grl,2019,hic
 gtm,1987,lmc
 gtm,1988,lmc
 gtm,1989,lmc
@@ -2587,6 +2666,7 @@ gtm,2015,lmc
 gtm,2016,lmc
 gtm,2017,umc
 gtm,2018,umc
+gtm,2019,umc
 gum,1987,hic
 gum,1988,hic
 gum,1989,hic
@@ -2619,6 +2699,7 @@ gum,2015,hic
 gum,2016,hic
 gum,2017,hic
 gum,2018,hic
+gum,2019,hic
 guy,1987,lic
 guy,1988,lic
 guy,1989,lic
@@ -2651,6 +2732,7 @@ guy,2015,umc
 guy,2016,umc
 guy,2017,umc
 guy,2018,umc
+guy,2019,umc
 hkg,1987,hic
 hkg,1988,hic
 hkg,1989,hic
@@ -2683,6 +2765,7 @@ hkg,2015,hic
 hkg,2016,hic
 hkg,2017,hic
 hkg,2018,hic
+hkg,2019,hic
 hnd,1987,lmc
 hnd,1988,lmc
 hnd,1989,lmc
@@ -2715,6 +2798,7 @@ hnd,2015,lmc
 hnd,2016,lmc
 hnd,2017,lmc
 hnd,2018,lmc
+hnd,2019,lmc
 hrv,1987,lmc
 hrv,1988,lmc
 hrv,1989,lmc
@@ -2747,6 +2831,7 @@ hrv,2015,hic
 hrv,2016,umc
 hrv,2017,hic
 hrv,2018,hic
+hrv,2019,hic
 hti,1987,lic
 hti,1988,lic
 hti,1989,lic
@@ -2779,6 +2864,7 @@ hti,2015,lic
 hti,2016,lic
 hti,2017,lic
 hti,2018,lic
+hti,2019,lic
 hun,1987,umc
 hun,1988,umc
 hun,1989,umc
@@ -2811,6 +2897,7 @@ hun,2015,hic
 hun,2016,hic
 hun,2017,hic
 hun,2018,hic
+hun,2019,hic
 idn,1987,lic
 idn,1988,lic
 idn,1989,lic
@@ -2843,6 +2930,7 @@ idn,2015,lmc
 idn,2016,lmc
 idn,2017,lmc
 idn,2018,lmc
+idn,2019,umc
 imn,1987,hic
 imn,1988,hic
 imn,1989,hic
@@ -2875,6 +2963,7 @@ imn,2015,hic
 imn,2016,hic
 imn,2017,hic
 imn,2018,hic
+imn,2019,hic
 ind,1987,lic
 ind,1988,lic
 ind,1989,lic
@@ -2907,6 +2996,7 @@ ind,2015,lmc
 ind,2016,lmc
 ind,2017,lmc
 ind,2018,lmc
+ind,2019,lmc
 irl,1987,hic
 irl,1988,hic
 irl,1989,hic
@@ -2939,6 +3029,7 @@ irl,2015,hic
 irl,2016,hic
 irl,2017,hic
 irl,2018,hic
+irl,2019,hic
 irn,1987,umc
 irn,1988,umc
 irn,1989,umc
@@ -2971,6 +3062,7 @@ irn,2015,umc
 irn,2016,umc
 irn,2017,umc
 irn,2018,umc
+irn,2019,umc
 irq,1987,umc
 irq,1988,umc
 irq,1989,umc
@@ -3003,6 +3095,7 @@ irq,2015,umc
 irq,2016,umc
 irq,2017,umc
 irq,2018,umc
+irq,2019,umc
 isl,1987,hic
 isl,1988,hic
 isl,1989,hic
@@ -3035,6 +3128,7 @@ isl,2015,hic
 isl,2016,hic
 isl,2017,hic
 isl,2018,hic
+isl,2019,hic
 isr,1987,hic
 isr,1988,hic
 isr,1989,hic
@@ -3067,6 +3161,7 @@ isr,2015,hic
 isr,2016,hic
 isr,2017,hic
 isr,2018,hic
+isr,2019,hic
 ita,1987,hic
 ita,1988,hic
 ita,1989,hic
@@ -3099,6 +3194,7 @@ ita,2015,hic
 ita,2016,hic
 ita,2017,hic
 ita,2018,hic
+ita,2019,hic
 jam,1987,lmc
 jam,1988,lmc
 jam,1989,lmc
@@ -3131,6 +3227,7 @@ jam,2015,umc
 jam,2016,umc
 jam,2017,umc
 jam,2018,umc
+jam,2019,umc
 jor,1987,lmc
 jor,1988,lmc
 jor,1989,lmc
@@ -3163,6 +3260,7 @@ jor,2015,umc
 jor,2016,lmc
 jor,2017,umc
 jor,2018,umc
+jor,2019,umc
 jpn,1987,hic
 jpn,1988,hic
 jpn,1989,hic
@@ -3195,6 +3293,7 @@ jpn,2015,hic
 jpn,2016,hic
 jpn,2017,hic
 jpn,2018,hic
+jpn,2019,hic
 kaz,1987,lmc
 kaz,1988,lmc
 kaz,1989,lmc
@@ -3227,6 +3326,7 @@ kaz,2015,umc
 kaz,2016,umc
 kaz,2017,umc
 kaz,2018,umc
+kaz,2019,umc
 ken,1987,lic
 ken,1988,lic
 ken,1989,lic
@@ -3259,6 +3359,7 @@ ken,2015,lmc
 ken,2016,lmc
 ken,2017,lmc
 ken,2018,lmc
+ken,2019,lmc
 kgz,1987,lmc
 kgz,1988,lmc
 kgz,1989,lmc
@@ -3291,6 +3392,7 @@ kgz,2015,lmc
 kgz,2016,lmc
 kgz,2017,lmc
 kgz,2018,lmc
+kgz,2019,lmc
 khm,1987,lic
 khm,1988,lic
 khm,1989,lic
@@ -3323,6 +3425,7 @@ khm,2015,lmc
 khm,2016,lmc
 khm,2017,lmc
 khm,2018,lmc
+khm,2019,lmc
 kir,1987,lmc
 kir,1988,lmc
 kir,1989,lmc
@@ -3355,6 +3458,7 @@ kir,2015,lmc
 kir,2016,lmc
 kir,2017,lmc
 kir,2018,lmc
+kir,2019,lmc
 kna,1987,umc
 kna,1988,umc
 kna,1989,umc
@@ -3387,6 +3491,7 @@ kna,2015,hic
 kna,2016,hic
 kna,2017,hic
 kna,2018,hic
+kna,2019,hic
 kor,1987,umc
 kor,1988,umc
 kor,1989,umc
@@ -3419,6 +3524,7 @@ kor,2015,hic
 kor,2016,hic
 kor,2017,hic
 kor,2018,hic
+kor,2019,hic
 kwt,1987,hic
 kwt,1988,hic
 kwt,1989,hic
@@ -3451,6 +3557,7 @@ kwt,2015,hic
 kwt,2016,hic
 kwt,2017,hic
 kwt,2018,hic
+kwt,2019,hic
 lao,1987,lic
 lao,1988,lic
 lao,1989,lic
@@ -3483,6 +3590,7 @@ lao,2015,lmc
 lao,2016,lmc
 lao,2017,lmc
 lao,2018,lmc
+lao,2019,lmc
 lbn,1987,lmc
 lbn,1988,lmc
 lbn,1989,lmc
@@ -3515,6 +3623,7 @@ lbn,2015,umc
 lbn,2016,umc
 lbn,2017,umc
 lbn,2018,umc
+lbn,2019,umc
 lbr,1987,lic
 lbr,1988,lic
 lbr,1989,lic
@@ -3547,6 +3656,7 @@ lbr,2015,lic
 lbr,2016,lic
 lbr,2017,lic
 lbr,2018,lic
+lbr,2019,lic
 lby,1987,umc
 lby,1988,umc
 lby,1989,umc
@@ -3579,6 +3689,7 @@ lby,2015,umc
 lby,2016,umc
 lby,2017,umc
 lby,2018,umc
+lby,2019,umc
 lca,1987,lmc
 lca,1988,lmc
 lca,1989,lmc
@@ -3611,6 +3722,7 @@ lca,2015,umc
 lca,2016,umc
 lca,2017,umc
 lca,2018,umc
+lca,2019,umc
 lie,1987,hic
 lie,1988,hic
 lie,1989,hic
@@ -3643,6 +3755,7 @@ lie,2015,hic
 lie,2016,hic
 lie,2017,hic
 lie,2018,hic
+lie,2019,hic
 lka,1987,lic
 lka,1988,lic
 lka,1989,lic
@@ -3675,6 +3788,7 @@ lka,2015,lmc
 lka,2016,lmc
 lka,2017,lmc
 lka,2018,umc
+lka,2019,lmc
 lso,1987,lic
 lso,1988,lic
 lso,1989,lic
@@ -3707,6 +3821,7 @@ lso,2015,lmc
 lso,2016,lmc
 lso,2017,lmc
 lso,2018,lmc
+lso,2019,lmc
 ltu,1987,umc
 ltu,1988,umc
 ltu,1989,umc
@@ -3739,6 +3854,7 @@ ltu,2015,hic
 ltu,2016,hic
 ltu,2017,hic
 ltu,2018,hic
+ltu,2019,hic
 lux,1987,hic
 lux,1988,hic
 lux,1989,hic
@@ -3771,6 +3887,7 @@ lux,2015,hic
 lux,2016,hic
 lux,2017,hic
 lux,2018,hic
+lux,2019,hic
 lva,1987,umc
 lva,1988,umc
 lva,1989,umc
@@ -3803,6 +3920,7 @@ lva,2015,hic
 lva,2016,hic
 lva,2017,hic
 lva,2018,hic
+lva,2019,hic
 mac,1987,umc
 mac,1988,umc
 mac,1989,umc
@@ -3835,6 +3953,7 @@ mac,2015,hic
 mac,2016,hic
 mac,2017,hic
 mac,2018,hic
+mac,2019,hic
 maf,1987,hic
 maf,1988,hic
 maf,1989,hic
@@ -3867,6 +3986,7 @@ maf,2015,hic
 maf,2016,hic
 maf,2017,hic
 maf,2018,hic
+maf,2019,hic
 mar,1987,lmc
 mar,1988,lmc
 mar,1989,lmc
@@ -3899,6 +4019,7 @@ mar,2015,lmc
 mar,2016,lmc
 mar,2017,lmc
 mar,2018,lmc
+mar,2019,lmc
 mco,1987,hic
 mco,1988,hic
 mco,1989,hic
@@ -3931,6 +4052,7 @@ mco,2015,hic
 mco,2016,hic
 mco,2017,hic
 mco,2018,hic
+mco,2019,hic
 mda,1987,lmc
 mda,1988,lmc
 mda,1989,lmc
@@ -3963,6 +4085,7 @@ mda,2015,lmc
 mda,2016,lmc
 mda,2017,lmc
 mda,2018,lmc
+mda,2019,lmc
 mdg,1987,lic
 mdg,1988,lic
 mdg,1989,lic
@@ -3995,6 +4118,7 @@ mdg,2015,lic
 mdg,2016,lic
 mdg,2017,lic
 mdg,2018,lic
+mdg,2019,lic
 mdv,1987,lic
 mdv,1988,lic
 mdv,1989,lic
@@ -4027,6 +4151,7 @@ mdv,2015,umc
 mdv,2016,umc
 mdv,2017,umc
 mdv,2018,umc
+mdv,2019,umc
 mex,1987,lmc
 mex,1988,lmc
 mex,1989,lmc
@@ -4059,6 +4184,7 @@ mex,2015,umc
 mex,2016,umc
 mex,2017,umc
 mex,2018,umc
+mex,2019,umc
 mhl,1987,lmc
 mhl,1988,lmc
 mhl,1989,lmc
@@ -4091,6 +4217,7 @@ mhl,2015,umc
 mhl,2016,umc
 mhl,2017,umc
 mhl,2018,umc
+mhl,2019,umc
 mkd,1987,lmc
 mkd,1988,lmc
 mkd,1989,lmc
@@ -4123,6 +4250,7 @@ mkd,2015,umc
 mkd,2016,umc
 mkd,2017,umc
 mkd,2018,umc
+mkd,2019,umc
 mli,1987,lic
 mli,1988,lic
 mli,1989,lic
@@ -4155,6 +4283,7 @@ mli,2015,lic
 mli,2016,lic
 mli,2017,lic
 mli,2018,lic
+mli,2019,lic
 mlt,1987,umc
 mlt,1988,umc
 mlt,1989,hic
@@ -4187,6 +4316,7 @@ mlt,2015,hic
 mlt,2016,hic
 mlt,2017,hic
 mlt,2018,hic
+mlt,2019,hic
 mmr,1987,lic
 mmr,1988,lic
 mmr,1989,lic
@@ -4219,6 +4349,7 @@ mmr,2015,lmc
 mmr,2016,lmc
 mmr,2017,lmc
 mmr,2018,lmc
+mmr,2019,lmc
 mne,1987,umc
 mne,1988,umc
 mne,1989,umc
@@ -4251,6 +4382,7 @@ mne,2015,umc
 mne,2016,umc
 mne,2017,umc
 mne,2018,umc
+mne,2019,umc
 mng,1987,lmc
 mng,1988,lmc
 mng,1989,lmc
@@ -4283,6 +4415,7 @@ mng,2015,lmc
 mng,2016,lmc
 mng,2017,lmc
 mng,2018,lmc
+mng,2019,lmc
 mnp,1987,lmc
 mnp,1988,lmc
 mnp,1989,lmc
@@ -4315,6 +4448,7 @@ mnp,2015,hic
 mnp,2016,hic
 mnp,2017,hic
 mnp,2018,hic
+mnp,2019,hic
 moz,1987,lic
 moz,1988,lic
 moz,1989,lic
@@ -4347,6 +4481,7 @@ moz,2015,lic
 moz,2016,lic
 moz,2017,lic
 moz,2018,lic
+moz,2019,lic
 mrt,1987,lic
 mrt,1988,lic
 mrt,1989,lic
@@ -4379,6 +4514,7 @@ mrt,2015,lmc
 mrt,2016,lmc
 mrt,2017,lmc
 mrt,2018,lmc
+mrt,2019,lmc
 mus,1987,lmc
 mus,1988,lmc
 mus,1989,lmc
@@ -4411,6 +4547,7 @@ mus,2015,umc
 mus,2016,umc
 mus,2017,umc
 mus,2018,umc
+mus,2019,hic
 mwi,1987,lic
 mwi,1988,lic
 mwi,1989,lic
@@ -4443,6 +4580,7 @@ mwi,2015,lic
 mwi,2016,lic
 mwi,2017,lic
 mwi,2018,lic
+mwi,2019,lic
 mys,1987,lmc
 mys,1988,lmc
 mys,1989,lmc
@@ -4475,6 +4613,7 @@ mys,2015,umc
 mys,2016,umc
 mys,2017,umc
 mys,2018,umc
+mys,2019,umc
 myt,1987,hic
 myt,1988,hic
 myt,1989,hic
@@ -4531,6 +4670,7 @@ nam,2015,umc
 nam,2016,umc
 nam,2017,umc
 nam,2018,umc
+nam,2019,umc
 ncl,1987,umc
 ncl,1988,umc
 ncl,1989,umc
@@ -4563,6 +4703,7 @@ ncl,2015,hic
 ncl,2016,hic
 ncl,2017,hic
 ncl,2018,hic
+ncl,2019,hic
 ner,1987,lic
 ner,1988,lic
 ner,1989,lic
@@ -4595,6 +4736,7 @@ ner,2015,lic
 ner,2016,lic
 ner,2017,lic
 ner,2018,lic
+ner,2019,lic
 nga,1987,lic
 nga,1988,lic
 nga,1989,lic
@@ -4627,6 +4769,7 @@ nga,2015,lmc
 nga,2016,lmc
 nga,2017,lmc
 nga,2018,lmc
+nga,2019,lmc
 nic,1987,lmc
 nic,1988,lmc
 nic,1989,lmc
@@ -4659,6 +4802,7 @@ nic,2015,lmc
 nic,2016,lmc
 nic,2017,lmc
 nic,2018,lmc
+nic,2019,lmc
 nld,1987,hic
 nld,1988,hic
 nld,1989,hic
@@ -4691,6 +4835,7 @@ nld,2015,hic
 nld,2016,hic
 nld,2017,hic
 nld,2018,hic
+nld,2019,hic
 nor,1987,hic
 nor,1988,hic
 nor,1989,hic
@@ -4723,6 +4868,7 @@ nor,2015,hic
 nor,2016,hic
 nor,2017,hic
 nor,2018,hic
+nor,2019,hic
 npl,1987,lic
 npl,1988,lic
 npl,1989,lic
@@ -4755,6 +4901,7 @@ npl,2015,lic
 npl,2016,lic
 npl,2017,lic
 npl,2018,lic
+npl,2019,lmc
 nru,1987,hic
 nru,1988,hic
 nru,1989,hic
@@ -4787,6 +4934,7 @@ nru,2015,hic
 nru,2016,umc
 nru,2017,umc
 nru,2018,umc
+nru,2019,hic
 nzl,1987,hic
 nzl,1988,hic
 nzl,1989,hic
@@ -4819,6 +4967,7 @@ nzl,2015,hic
 nzl,2016,hic
 nzl,2017,hic
 nzl,2018,hic
+nzl,2019,hic
 omn,1987,umc
 omn,1988,umc
 omn,1989,umc
@@ -4851,6 +5000,7 @@ omn,2015,hic
 omn,2016,hic
 omn,2017,hic
 omn,2018,hic
+omn,2019,hic
 pak,1987,lic
 pak,1988,lic
 pak,1989,lic
@@ -4883,6 +5033,7 @@ pak,2015,lmc
 pak,2016,lmc
 pak,2017,lmc
 pak,2018,lmc
+pak,2019,lmc
 pan,1987,umc
 pan,1988,lmc
 pan,1989,lmc
@@ -4915,6 +5066,7 @@ pan,2015,umc
 pan,2016,umc
 pan,2017,hic
 pan,2018,hic
+pan,2019,hic
 per,1987,lmc
 per,1988,lmc
 per,1989,lmc
@@ -4947,6 +5099,7 @@ per,2015,umc
 per,2016,umc
 per,2017,umc
 per,2018,umc
+per,2019,umc
 phl,1987,lmc
 phl,1988,lmc
 phl,1989,lmc
@@ -4979,6 +5132,7 @@ phl,2015,lmc
 phl,2016,lmc
 phl,2017,lmc
 phl,2018,lmc
+phl,2019,lmc
 plw,1987,umc
 plw,1988,umc
 plw,1989,umc
@@ -5011,6 +5165,7 @@ plw,2015,umc
 plw,2016,hic
 plw,2017,hic
 plw,2018,hic
+plw,2019,hic
 png,1987,lmc
 png,1988,lmc
 png,1989,lmc
@@ -5043,6 +5198,7 @@ png,2015,lmc
 png,2016,lmc
 png,2017,lmc
 png,2018,lmc
+png,2019,lmc
 pol,1987,lmc
 pol,1988,lmc
 pol,1989,lmc
@@ -5075,6 +5231,7 @@ pol,2015,hic
 pol,2016,hic
 pol,2017,hic
 pol,2018,hic
+pol,2019,hic
 pri,1987,umc
 pri,1988,umc
 pri,1989,hic
@@ -5107,6 +5264,7 @@ pri,2015,hic
 pri,2016,hic
 pri,2017,hic
 pri,2018,hic
+pri,2019,hic
 prk,1987,lmc
 prk,1988,lmc
 prk,1989,lmc
@@ -5139,6 +5297,7 @@ prk,2015,lic
 prk,2016,lic
 prk,2017,lic
 prk,2018,lic
+prk,2019,lic
 prt,1987,umc
 prt,1988,umc
 prt,1989,umc
@@ -5171,6 +5330,7 @@ prt,2015,hic
 prt,2016,hic
 prt,2017,hic
 prt,2018,hic
+prt,2019,hic
 pry,1987,lmc
 pry,1988,lmc
 pry,1989,lmc
@@ -5203,6 +5363,7 @@ pry,2015,umc
 pry,2016,umc
 pry,2017,umc
 pry,2018,umc
+pry,2019,umc
 pse,1987,lmc
 pse,1988,lmc
 pse,1989,lmc
@@ -5235,6 +5396,7 @@ pse,2015,lmc
 pse,2016,lmc
 pse,2017,lmc
 pse,2018,lmc
+pse,2019,lmc
 pyf,1987,hic
 pyf,1988,hic
 pyf,1989,hic
@@ -5267,6 +5429,7 @@ pyf,2015,hic
 pyf,2016,hic
 pyf,2017,hic
 pyf,2018,hic
+pyf,2019,hic
 qat,1987,hic
 qat,1988,hic
 qat,1989,hic
@@ -5299,6 +5462,7 @@ qat,2015,hic
 qat,2016,hic
 qat,2017,hic
 qat,2018,hic
+qat,2019,hic
 rou,1987,umc
 rou,1988,umc
 rou,1989,umc
@@ -5331,6 +5495,7 @@ rou,2015,umc
 rou,2016,umc
 rou,2017,umc
 rou,2018,umc
+rou,2019,hic
 rus,1987,umc
 rus,1988,umc
 rus,1989,umc
@@ -5363,6 +5528,7 @@ rus,2015,umc
 rus,2016,umc
 rus,2017,umc
 rus,2018,umc
+rus,2019,umc
 rwa,1987,lic
 rwa,1988,lic
 rwa,1989,lic
@@ -5395,6 +5561,7 @@ rwa,2015,lic
 rwa,2016,lic
 rwa,2017,lic
 rwa,2018,lic
+rwa,2019,lic
 sau,1987,hic
 sau,1988,hic
 sau,1989,hic
@@ -5427,6 +5594,7 @@ sau,2015,hic
 sau,2016,hic
 sau,2017,hic
 sau,2018,hic
+sau,2019,hic
 sdn,1987,lic
 sdn,1988,lic
 sdn,1989,lic
@@ -5459,6 +5627,7 @@ sdn,2015,lmc
 sdn,2016,lmc
 sdn,2017,lmc
 sdn,2018,lmc
+sdn,2019,lic
 sen,1987,lmc
 sen,1988,lmc
 sen,1989,lmc
@@ -5491,6 +5660,7 @@ sen,2015,lic
 sen,2016,lic
 sen,2017,lic
 sen,2018,lmc
+sen,2019,lmc
 sgp,1987,hic
 sgp,1988,hic
 sgp,1989,hic
@@ -5523,6 +5693,7 @@ sgp,2015,hic
 sgp,2016,hic
 sgp,2017,hic
 sgp,2018,hic
+sgp,2019,hic
 slb,1987,lic
 slb,1988,lmc
 slb,1989,lic
@@ -5555,6 +5726,7 @@ slb,2015,lmc
 slb,2016,lmc
 slb,2017,lmc
 slb,2018,lmc
+slb,2019,lmc
 sle,1987,lic
 sle,1988,lic
 sle,1989,lic
@@ -5587,6 +5759,7 @@ sle,2015,lic
 sle,2016,lic
 sle,2017,lic
 sle,2018,lic
+sle,2019,lic
 slv,1987,lmc
 slv,1988,lmc
 slv,1989,lmc
@@ -5619,6 +5792,7 @@ slv,2015,lmc
 slv,2016,lmc
 slv,2017,lmc
 slv,2018,lmc
+slv,2019,lmc
 smr,1987,hic
 smr,1988,hic
 smr,1989,hic
@@ -5651,6 +5825,7 @@ smr,2015,hic
 smr,2016,hic
 smr,2017,hic
 smr,2018,hic
+smr,2019,hic
 som,1987,lic
 som,1988,lic
 som,1989,lic
@@ -5683,6 +5858,7 @@ som,2015,lic
 som,2016,lic
 som,2017,lic
 som,2018,lic
+som,2019,lic
 srb,1987,umc
 srb,1988,umc
 srb,1989,umc
@@ -5715,6 +5891,7 @@ srb,2015,umc
 srb,2016,umc
 srb,2017,umc
 srb,2018,umc
+srb,2019,umc
 ssd,1987,lmc
 ssd,1988,lmc
 ssd,1989,lmc
@@ -5747,6 +5924,7 @@ ssd,2015,lic
 ssd,2016,lic
 ssd,2017,lic
 ssd,2018,lic
+ssd,2019,lic
 stp,1987,lic
 stp,1988,lic
 stp,1989,lic
@@ -5779,6 +5957,7 @@ stp,2015,lmc
 stp,2016,lmc
 stp,2017,lmc
 stp,2018,lmc
+stp,2019,lmc
 sun,1987,umc
 sun,1988,umc
 sun,1989,umc
@@ -5815,6 +5994,7 @@ sur,2015,umc
 sur,2016,umc
 sur,2017,umc
 sur,2018,umc
+sur,2019,umc
 svk,1987,lmc
 svk,1988,lmc
 svk,1989,lmc
@@ -5847,6 +6027,7 @@ svk,2015,hic
 svk,2016,hic
 svk,2017,hic
 svk,2018,hic
+svk,2019,hic
 svn,1987,umc
 svn,1988,umc
 svn,1989,umc
@@ -5879,6 +6060,7 @@ svn,2015,hic
 svn,2016,hic
 svn,2017,hic
 svn,2018,hic
+svn,2019,hic
 swe,1987,hic
 swe,1988,hic
 swe,1989,hic
@@ -5911,6 +6093,7 @@ swe,2015,hic
 swe,2016,hic
 swe,2017,hic
 swe,2018,hic
+swe,2019,hic
 swz,1987,lmc
 swz,1988,lmc
 swz,1989,lmc
@@ -5943,6 +6126,7 @@ swz,2015,lmc
 swz,2016,lmc
 swz,2017,lmc
 swz,2018,lmc
+swz,2019,lmc
 sxm,1987,hic
 sxm,1988,hic
 sxm,1989,hic
@@ -5975,6 +6159,7 @@ sxm,2015,hic
 sxm,2016,hic
 sxm,2017,hic
 sxm,2018,hic
+sxm,2019,hic
 syc,1987,umc
 syc,1988,umc
 syc,1989,umc
@@ -6007,6 +6192,7 @@ syc,2015,hic
 syc,2016,hic
 syc,2017,hic
 syc,2018,hic
+syc,2019,hic
 syr,1987,lmc
 syr,1988,lmc
 syr,1989,lmc
@@ -6039,6 +6225,7 @@ syr,2015,lmc
 syr,2016,lmc
 syr,2017,lic
 syr,2018,lic
+syr,2019,lic
 tca,1987,hic
 tca,1988,hic
 tca,1989,hic
@@ -6071,6 +6258,7 @@ tca,2015,hic
 tca,2016,hic
 tca,2017,hic
 tca,2018,hic
+tca,2019,hic
 tcd,1987,lic
 tcd,1988,lic
 tcd,1989,lic
@@ -6103,6 +6291,7 @@ tcd,2015,lic
 tcd,2016,lic
 tcd,2017,lic
 tcd,2018,lic
+tcd,2019,lic
 tgo,1987,lic
 tgo,1988,lic
 tgo,1989,lic
@@ -6135,6 +6324,7 @@ tgo,2015,lic
 tgo,2016,lic
 tgo,2017,lic
 tgo,2018,lic
+tgo,2019,lic
 tha,1987,lmc
 tha,1988,lmc
 tha,1989,lmc
@@ -6167,6 +6357,7 @@ tha,2015,umc
 tha,2016,umc
 tha,2017,umc
 tha,2018,umc
+tha,2019,umc
 tjk,1987,lmc
 tjk,1988,lmc
 tjk,1989,lmc
@@ -6199,6 +6390,7 @@ tjk,2015,lmc
 tjk,2016,lmc
 tjk,2017,lic
 tjk,2018,lic
+tjk,2019,lic
 tkm,1987,lmc
 tkm,1988,lmc
 tkm,1989,lmc
@@ -6231,6 +6423,7 @@ tkm,2015,umc
 tkm,2016,umc
 tkm,2017,umc
 tkm,2018,umc
+tkm,2019,umc
 tls,1987,lic
 tls,1988,lic
 tls,1989,lic
@@ -6263,6 +6456,7 @@ tls,2015,lmc
 tls,2016,lmc
 tls,2017,lmc
 tls,2018,lmc
+tls,2019,lmc
 ton,1987,lmc
 ton,1988,lmc
 ton,1989,lmc
@@ -6295,6 +6489,7 @@ ton,2015,lmc
 ton,2016,umc
 ton,2017,umc
 ton,2018,umc
+ton,2019,umc
 tto,1987,umc
 tto,1988,umc
 tto,1989,umc
@@ -6327,6 +6522,7 @@ tto,2015,hic
 tto,2016,hic
 tto,2017,hic
 tto,2018,hic
+tto,2019,hic
 tun,1987,lmc
 tun,1988,lmc
 tun,1989,lmc
@@ -6359,6 +6555,7 @@ tun,2015,lmc
 tun,2016,lmc
 tun,2017,lmc
 tun,2018,lmc
+tun,2019,lmc
 tur,1987,lmc
 tur,1988,lmc
 tur,1989,lmc
@@ -6391,6 +6588,7 @@ tur,2015,umc
 tur,2016,umc
 tur,2017,umc
 tur,2018,umc
+tur,2019,umc
 tuv,1987,lmc
 tuv,1988,lmc
 tuv,1989,lmc
@@ -6423,6 +6621,7 @@ tuv,2015,umc
 tuv,2016,umc
 tuv,2017,umc
 tuv,2018,umc
+tuv,2019,umc
 twn,1987,hic
 twn,1988,hic
 twn,1989,hic
@@ -6455,6 +6654,7 @@ twn,2015,hic
 twn,2016,hic
 twn,2017,hic
 twn,2018,hic
+twn,2019,hic
 tza,1987,lic
 tza,1988,lic
 tza,1989,lic
@@ -6487,6 +6687,7 @@ tza,2015,lic
 tza,2016,lic
 tza,2017,lic
 tza,2018,lic
+tza,2019,lmc
 uga,1987,lic
 uga,1988,lic
 uga,1989,lic
@@ -6519,6 +6720,7 @@ uga,2015,lic
 uga,2016,lic
 uga,2017,lic
 uga,2018,lic
+uga,2019,lic
 ukr,1987,lmc
 ukr,1988,lmc
 ukr,1989,lmc
@@ -6551,6 +6753,7 @@ ukr,2015,lmc
 ukr,2016,lmc
 ukr,2017,lmc
 ukr,2018,lmc
+ukr,2019,lmc
 ury,1987,umc
 ury,1988,umc
 ury,1989,umc
@@ -6583,6 +6786,7 @@ ury,2015,hic
 ury,2016,hic
 ury,2017,hic
 ury,2018,hic
+ury,2019,hic
 usa,1987,hic
 usa,1988,hic
 usa,1989,hic
@@ -6615,6 +6819,7 @@ usa,2015,hic
 usa,2016,hic
 usa,2017,hic
 usa,2018,hic
+usa,2019,hic
 uzb,1987,lmc
 uzb,1988,lmc
 uzb,1989,lmc
@@ -6647,6 +6852,7 @@ uzb,2015,lmc
 uzb,2016,lmc
 uzb,2017,lmc
 uzb,2018,lmc
+uzb,2019,lmc
 vct,1987,lmc
 vct,1988,lmc
 vct,1989,lmc
@@ -6679,6 +6885,7 @@ vct,2015,umc
 vct,2016,umc
 vct,2017,umc
 vct,2018,umc
+vct,2019,umc
 ven,1987,umc
 ven,1988,umc
 ven,1989,umc
@@ -6711,6 +6918,7 @@ ven,2015,umc
 ven,2016,umc
 ven,2017,umc
 ven,2018,umc
+ven,2019,umc
 vgb,1987,hic
 vgb,1988,hic
 vgb,1989,hic
@@ -6743,6 +6951,7 @@ vgb,2015,hic
 vgb,2016,hic
 vgb,2017,hic
 vgb,2018,hic
+vgb,2019,hic
 vir,1987,hic
 vir,1988,hic
 vir,1989,hic
@@ -6775,6 +6984,7 @@ vir,2015,hic
 vir,2016,hic
 vir,2017,hic
 vir,2018,hic
+vir,2019,hic
 vnm,1987,lic
 vnm,1988,lic
 vnm,1989,lic
@@ -6807,6 +7017,7 @@ vnm,2015,lmc
 vnm,2016,lmc
 vnm,2017,lmc
 vnm,2018,lmc
+vnm,2019,lmc
 vut,1987,lmc
 vut,1988,lmc
 vut,1989,lmc
@@ -6839,6 +7050,7 @@ vut,2015,lmc
 vut,2016,lmc
 vut,2017,lmc
 vut,2018,lmc
+vut,2019,lmc
 wsm,1987,lmc
 wsm,1988,lmc
 wsm,1989,lmc
@@ -6871,6 +7083,7 @@ wsm,2015,lmc
 wsm,2016,umc
 wsm,2017,umc
 wsm,2018,umc
+wsm,2019,umc
 xkx,1987,lmc
 xkx,1988,lmc
 xkx,1989,lmc
@@ -6903,6 +7116,7 @@ xkx,2015,lmc
 xkx,2016,lmc
 xkx,2017,lmc
 xkx,2018,umc
+xkx,2019,umc
 yem,1987,lmc
 yem,1988,lmc
 yem,1989,lmc
@@ -6935,6 +7149,7 @@ yem,2015,lmc
 yem,2016,lmc
 yem,2017,lic
 yem,2018,lic
+yem,2019,lic
 yug,1987,lmc
 yug,1988,lmc
 yug,1989,lmc
@@ -6991,6 +7206,7 @@ zaf,2015,umc
 zaf,2016,umc
 zaf,2017,umc
 zaf,2018,umc
+zaf,2019,umc
 zmb,1987,lic
 zmb,1988,lic
 zmb,1989,lic
@@ -7023,6 +7239,7 @@ zmb,2015,lmc
 zmb,2016,lmc
 zmb,2017,lmc
 zmb,2018,lmc
+zmb,2019,lmc
 zwe,1987,lmc
 zwe,1988,lmc
 zwe,1989,lmc
@@ -7055,3 +7272,4 @@ zwe,2015,lic
 zwe,2016,lic
 zwe,2017,lic
 zwe,2018,lmc
+zwe,2019,lmc
