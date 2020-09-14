@@ -109,7 +109,6 @@ cooking:
                   value: income_4level
               column: country
               time_column: year
-              debug: true
           result: population-datapoints-translated
 
         - procedure: groupby
