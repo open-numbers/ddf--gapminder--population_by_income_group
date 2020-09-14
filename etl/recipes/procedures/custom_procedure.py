@@ -88,7 +88,9 @@ def backfill(chef, ingredients, result, series_key, index_column):
     new_data = dict()
 
     def _fill(ser):
-        return ser.bfill()
+        # work around a bug in pandas 1.1
+        ser_ = pd.Series(ser.values, index=ser.index)
+        return ser_.bfill()
 
     for k, df in data.items():
         df_new = df.set_index(ingredient.key).unstack(index_column).apply(_fill, axis=1).stack().reset_index()
