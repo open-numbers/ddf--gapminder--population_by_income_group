@@ -12,9 +12,9 @@
         "open-numbers/ddf--gapminder--population",
         "open-numbers/ddf--world_bank--world_development_indicators"
     ],
+    "created": "2020-09-15T12:15:21.406966+00:00",
     "id": "population by income groups",
     "translations": [],
-    "created": "2020-06-07T06:01:03.477574+00:00",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -149,6 +149,12 @@
                     },
                     {
                         "name": "name"
+                    },
+                    {
+                        "name": "un_sdg_ldc"
+                    },
+                    {
+                        "name": "un_sdg_region"
                     },
                     {
                         "name": "un_state"
@@ -302,6 +308,45 @@
                     }
                 ],
                 "primaryKey": "main_religion_2008"
+            }
+        },
+        {
+            "name": "ddf--entities--geo--un_sdg_ldc",
+            "path": "ddf--entities--geo--un_sdg_ldc.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "un_sdg_ldc"
+                    },
+                    {
+                        "name": "is--un_sdg_ldc"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": "un_sdg_ldc"
+            }
+        },
+        {
+            "name": "ddf--entities--geo--un_sdg_region",
+            "path": "ddf--entities--geo--un_sdg_region.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "un_sdg_region"
+                    },
+                    {
+                        "name": "color"
+                    },
+                    {
+                        "name": "is--un_sdg_region"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": "un_sdg_region"
             }
         },
         {
@@ -552,7 +597,17 @@
                 ],
                 "value": "color",
                 "resources": [
+                    "ddf--entities--geo--un_sdg_region",
                     "ddf--entities--geo--world_4region"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "un_sdg_region"
+                ],
+                "value": "color",
+                "resources": [
+                    "ddf--entities--geo--un_sdg_region"
                 ]
             },
             {
@@ -784,6 +839,42 @@
                 "primaryKey": [
                     "geo"
                 ],
+                "value": "is--un_sdg_ldc",
+                "resources": [
+                    "ddf--entities--geo--un_sdg_ldc"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "un_sdg_ldc"
+                ],
+                "value": "is--un_sdg_ldc",
+                "resources": [
+                    "ddf--entities--geo--un_sdg_ldc"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo"
+                ],
+                "value": "is--un_sdg_region",
+                "resources": [
+                    "ddf--entities--geo--un_sdg_region"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "un_sdg_region"
+                ],
+                "value": "is--un_sdg_region",
+                "resources": [
+                    "ddf--entities--geo--un_sdg_region"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo"
+                ],
                 "value": "is--unicef_region",
                 "resources": [
                     "ddf--entities--geo--unicef_region"
@@ -1057,6 +1148,8 @@
                     "ddf--entities--geo--income_groups",
                     "ddf--entities--geo--landlocked",
                     "ddf--entities--geo--main_religion_2008",
+                    "ddf--entities--geo--un_sdg_ldc",
+                    "ddf--entities--geo--un_sdg_region",
                     "ddf--entities--geo--unicef_region",
                     "ddf--entities--geo--world_4region",
                     "ddf--entities--geo--world_6region"
@@ -1111,6 +1204,24 @@
             },
             {
                 "primaryKey": [
+                    "un_sdg_ldc"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--geo--un_sdg_ldc"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "un_sdg_region"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--geo--un_sdg_region"
+                ]
+            },
+            {
+                "primaryKey": [
                     "unicef_region"
                 ],
                 "value": "name",
@@ -1316,6 +1427,42 @@
                 "value": "topojson",
                 "resources": [
                     "ddf--entities--geo--global"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country"
+                ],
+                "value": "un_sdg_ldc",
+                "resources": [
+                    "ddf--entities--geo--country"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo"
+                ],
+                "value": "un_sdg_ldc",
+                "resources": [
+                    "ddf--entities--geo--country"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country"
+                ],
+                "value": "un_sdg_region",
+                "resources": [
+                    "ddf--entities--geo--country"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo"
+                ],
+                "value": "un_sdg_region",
+                "resources": [
+                    "ddf--entities--geo--country"
                 ]
             },
             {

@@ -73,7 +73,6 @@ cooking:
           options:
               series_key: economy
               index_column: year
-              debug: true
           result: wb-income-group-datapoints-backfill
 
         # translate wb to on name space
@@ -110,7 +109,6 @@ cooking:
                   value: income_4level
               column: country
               time_column: year
-              debug: true
           result: population-datapoints-translated
 
         - procedure: groupby
