@@ -12,7 +12,7 @@
         "open-numbers/ddf--gapminder--population",
         "open-numbers/ddf--world_bank--world_development_indicators"
     ],
-    "created": "2021-06-25T12:43:11.206173+00:00",
+    "created": "2021-07-03T12:43:06.594840+00:00",
     "id": "population by income groups",
     "translations": [],
     "resources": [
@@ -350,6 +350,24 @@
                     }
                 ],
                 "primaryKey": "un_sdg_region"
+            }
+        },
+        {
+            "name": "ddf--entities--geo--unhcr_region",
+            "path": "ddf--entities--geo--unhcr_region.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "unhcr_region"
+                    },
+                    {
+                        "name": "is--unhcr_region"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": "unhcr_region"
             }
         },
         {
@@ -878,6 +896,24 @@
                 "primaryKey": [
                     "geo"
                 ],
+                "value": "is--unhcr_region",
+                "resources": [
+                    "ddf--entities--geo--unhcr_region"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "unhcr_region"
+                ],
+                "value": "is--unhcr_region",
+                "resources": [
+                    "ddf--entities--geo--unhcr_region"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo"
+                ],
                 "value": "is--unicef_region",
                 "resources": [
                     "ddf--entities--geo--unicef_region"
@@ -1153,6 +1189,7 @@
                     "ddf--entities--geo--main_religion_2008",
                     "ddf--entities--geo--un_sdg_ldc",
                     "ddf--entities--geo--un_sdg_region",
+                    "ddf--entities--geo--unhcr_region",
                     "ddf--entities--geo--unicef_region",
                     "ddf--entities--geo--world_4region",
                     "ddf--entities--geo--world_6region"
@@ -1221,6 +1258,15 @@
                 "value": "name",
                 "resources": [
                     "ddf--entities--geo--un_sdg_region"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "unhcr_region"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--geo--unhcr_region"
                 ]
             },
             {
