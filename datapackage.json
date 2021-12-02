@@ -12,7 +12,7 @@
         "open-numbers/ddf--gapminder--population",
         "open-numbers/ddf--world_bank--world_development_indicators"
     ],
-    "created": "2021-11-20T13:00:32.863729+00:00",
+    "created": "2021-12-02T13:00:33.726696+00:00",
     "id": "population by income groups",
     "translations": [],
     "resources": [
@@ -167,6 +167,9 @@
                     },
                     {
                         "name": "unicode_region_subtag"
+                    },
+                    {
+                        "name": "west_and_rest"
                     },
                     {
                         "name": "world_4region"
@@ -1642,6 +1645,24 @@
                 "value": "unicode_region_subtag",
                 "resources": [
                     "ddf--entities--geo--global"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country"
+                ],
+                "value": "west_and_rest",
+                "resources": [
+                    "ddf--entities--geo--country"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo"
+                ],
+                "value": "west_and_rest",
+                "resources": [
+                    "ddf--entities--geo--country"
                 ]
             },
             {
