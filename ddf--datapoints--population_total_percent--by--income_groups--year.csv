@@ -34,8 +34,6 @@ high_income,2018,15.71836
 high_income,2019,15.89725
 high_income,2020,15.47456
 high_income,2021,15.66323
-high_income,2022,15.61208
-high_income,2023,17.4423
 low_income,1987,56.13085
 low_income,1988,56.29825
 low_income,1989,56.47819
@@ -71,8 +69,6 @@ low_income,2018,9.42871
 low_income,2019,8.88954
 low_income,2020,8.78575
 low_income,2021,9.19648
-low_income,2022,8.93691
-low_income,2023,9.10146
 lower_middle_income,1987,16.35287
 lower_middle_income,1988,18.4884
 lower_middle_income,1989,16.79537
@@ -108,8 +104,6 @@ lower_middle_income,2018,39.9697
 lower_middle_income,2019,38.12362
 lower_middle_income,2020,43.08965
 lower_middle_income,2021,43.05047
-lower_middle_income,2022,40.0956
-lower_middle_income,2023,38.07503
 upper_middle_income,1987,11.35259
 upper_middle_income,1988,9.21254
 upper_middle_income,1989,10.81095
@@ -145,5 +139,3 @@ upper_middle_income,2018,34.84469
 upper_middle_income,2019,37.05127
 upper_middle_income,2020,32.25114
 upper_middle_income,2021,31.69665
-upper_middle_income,2022,34.96569
-upper_middle_income,2023,34.99353
