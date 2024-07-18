@@ -12,9 +12,9 @@
         "open-numbers/ddf--gapminder--population",
         "open-numbers/ddf--world_bank--world_development_indicators"
     ],
-    "created": "2020-09-15T12:15:21.406966+00:00",
     "id": "population by income groups",
     "translations": [],
+    "created": "2024-07-18T02:13:37.628796+00:00",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -160,10 +160,16 @@
                         "name": "un_state"
                     },
                     {
+                        "name": "unhcr_region"
+                    },
+                    {
                         "name": "unicef_region"
                     },
                     {
                         "name": "unicode_region_subtag"
+                    },
+                    {
+                        "name": "west_and_rest"
                     },
                     {
                         "name": "world_4region"
@@ -350,6 +356,24 @@
             }
         },
         {
+            "name": "ddf--entities--geo--unhcr_region",
+            "path": "ddf--entities--geo--unhcr_region.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "unhcr_region"
+                    },
+                    {
+                        "name": "is--unhcr_region"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": "unhcr_region"
+            }
+        },
+        {
             "name": "ddf--entities--geo--unicef_region",
             "path": "ddf--entities--geo--unicef_region.csv",
             "schema": {
@@ -365,6 +389,24 @@
                     }
                 ],
                 "primaryKey": "unicef_region"
+            }
+        },
+        {
+            "name": "ddf--entities--geo--west_and_rest",
+            "path": "ddf--entities--geo--west_and_rest.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "west_and_rest"
+                    },
+                    {
+                        "name": "is--west_and_rest"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": "west_and_rest"
             }
         },
         {
@@ -437,54 +479,6 @@
                     }
                 ],
                 "primaryKey": "world_6region"
-            }
-        },
-        {
-            "name": "ddf--entities--geo",
-            "path": "ddf--entities--geo.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "geo"
-                    },
-                    {
-                        "name": "iso3166_1_alpha2"
-                    },
-                    {
-                        "name": "iso3166_1_alpha3"
-                    },
-                    {
-                        "name": "iso3166_1_numeric"
-                    },
-                    {
-                        "name": "landlocked"
-                    },
-                    {
-                        "name": "latitude"
-                    },
-                    {
-                        "name": "longitude"
-                    },
-                    {
-                        "name": "main_religion_2008"
-                    },
-                    {
-                        "name": "name"
-                    },
-                    {
-                        "name": "un_state"
-                    },
-                    {
-                        "name": "unicode_region_subtag"
-                    },
-                    {
-                        "name": "world_4region"
-                    },
-                    {
-                        "name": "world_6region"
-                    }
-                ],
-                "primaryKey": "geo"
             }
         }
     ],
@@ -875,6 +869,24 @@
                 "primaryKey": [
                     "geo"
                 ],
+                "value": "is--unhcr_region",
+                "resources": [
+                    "ddf--entities--geo--unhcr_region"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "unhcr_region"
+                ],
+                "value": "is--unhcr_region",
+                "resources": [
+                    "ddf--entities--geo--unhcr_region"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo"
+                ],
                 "value": "is--unicef_region",
                 "resources": [
                     "ddf--entities--geo--unicef_region"
@@ -887,6 +899,24 @@
                 "value": "is--unicef_region",
                 "resources": [
                     "ddf--entities--geo--unicef_region"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo"
+                ],
+                "value": "is--west_and_rest",
+                "resources": [
+                    "ddf--entities--geo--west_and_rest"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "west_and_rest"
+                ],
+                "value": "is--west_and_rest",
+                "resources": [
+                    "ddf--entities--geo--west_and_rest"
                 ]
             },
             {
@@ -940,7 +970,6 @@
                 ],
                 "value": "iso3166_1_alpha2",
                 "resources": [
-                    "ddf--entities--geo",
                     "ddf--entities--geo--country"
                 ]
             },
@@ -959,7 +988,6 @@
                 ],
                 "value": "iso3166_1_alpha3",
                 "resources": [
-                    "ddf--entities--geo",
                     "ddf--entities--geo--country"
                 ]
             },
@@ -978,7 +1006,6 @@
                 ],
                 "value": "iso3166_1_numeric",
                 "resources": [
-                    "ddf--entities--geo",
                     "ddf--entities--geo--country"
                 ]
             },
@@ -1015,7 +1042,6 @@
                 ],
                 "value": "landlocked",
                 "resources": [
-                    "ddf--entities--geo",
                     "ddf--entities--geo--country"
                 ]
             },
@@ -1034,7 +1060,6 @@
                 ],
                 "value": "latitude",
                 "resources": [
-                    "ddf--entities--geo",
                     "ddf--entities--geo--country",
                     "ddf--entities--geo--global",
                     "ddf--entities--geo--world_4region"
@@ -1073,7 +1098,6 @@
                 ],
                 "value": "longitude",
                 "resources": [
-                    "ddf--entities--geo",
                     "ddf--entities--geo--country",
                     "ddf--entities--geo--global",
                     "ddf--entities--geo--world_4region"
@@ -1112,7 +1136,6 @@
                 ],
                 "value": "main_religion_2008",
                 "resources": [
-                    "ddf--entities--geo",
                     "ddf--entities--geo--country"
                 ]
             },
@@ -1140,7 +1163,6 @@
                 ],
                 "value": "name",
                 "resources": [
-                    "ddf--entities--geo",
                     "ddf--entities--geo--country",
                     "ddf--entities--geo--g77_and_oecd_countries",
                     "ddf--entities--geo--global",
@@ -1150,7 +1172,9 @@
                     "ddf--entities--geo--main_religion_2008",
                     "ddf--entities--geo--un_sdg_ldc",
                     "ddf--entities--geo--un_sdg_region",
+                    "ddf--entities--geo--unhcr_region",
                     "ddf--entities--geo--unicef_region",
+                    "ddf--entities--geo--west_and_rest",
                     "ddf--entities--geo--world_4region",
                     "ddf--entities--geo--world_6region"
                 ]
@@ -1222,11 +1246,29 @@
             },
             {
                 "primaryKey": [
+                    "unhcr_region"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--geo--unhcr_region"
+                ]
+            },
+            {
+                "primaryKey": [
                     "unicef_region"
                 ],
                 "value": "name",
                 "resources": [
                     "ddf--entities--geo--unicef_region"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "west_and_rest"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--geo--west_and_rest"
                 ]
             },
             {
@@ -1480,7 +1522,24 @@
                 ],
                 "value": "un_state",
                 "resources": [
-                    "ddf--entities--geo",
+                    "ddf--entities--geo--country"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country"
+                ],
+                "value": "unhcr_region",
+                "resources": [
+                    "ddf--entities--geo--country"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo"
+                ],
+                "value": "unhcr_region",
+                "resources": [
                     "ddf--entities--geo--country"
                 ]
             },
@@ -1517,7 +1576,6 @@
                 ],
                 "value": "unicode_region_subtag",
                 "resources": [
-                    "ddf--entities--geo",
                     "ddf--entities--geo--country",
                     "ddf--entities--geo--global"
                 ]
@@ -1535,6 +1593,24 @@
                 "primaryKey": [
                     "country"
                 ],
+                "value": "west_and_rest",
+                "resources": [
+                    "ddf--entities--geo--country"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo"
+                ],
+                "value": "west_and_rest",
+                "resources": [
+                    "ddf--entities--geo--country"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country"
+                ],
                 "value": "world_4region",
                 "resources": [
                     "ddf--entities--geo--country"
@@ -1546,7 +1622,6 @@
                 ],
                 "value": "world_4region",
                 "resources": [
-                    "ddf--entities--geo",
                     "ddf--entities--geo--country"
                 ]
             },
@@ -1565,7 +1640,6 @@
                 ],
                 "value": "world_6region",
                 "resources": [
-                    "ddf--entities--geo",
                     "ddf--entities--geo--country"
                 ]
             }
